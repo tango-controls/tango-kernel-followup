@@ -22,5 +22,7 @@ Announce the documentation session on email and website.
 
 Reduce the documentation tutorial.
 
+Announce in advance topics for Tango brainstorming. Maybe providing short description of each topic e.g. *blockchain* -- append only linked list that uses hash pointers; *serverless* - an architecture principle when hardware is separated from software. So people can think about it before brainstorm session.
+
 ## 4. Go through the main issues and define priorities
 ## 5. AOB (JTango?, PyTango?, ...?)
