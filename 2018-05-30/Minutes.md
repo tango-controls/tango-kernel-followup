@@ -3,7 +3,8 @@
 Held on 2018/05/30 at 16:00 CET on https://appear.in/tango-kernel
 
 Participants: Reynald Bourtembourg, Andrew Goetz, Jean-Michel Chaize (ESRF)
-              Igor Khokhriakov (IK), Sergi Rubio (ALBA)
+              Igor Khokhriakov (IK), Geoffrey Mant (STFC),
+              Sergi Rubio, Jairo Moldes (ALBA)
 
 # Minutes
 ## 1. New Github repository to archive the Tango kernel meeting minutes: https://github.com/tango-controls/tango-kernel-followup
