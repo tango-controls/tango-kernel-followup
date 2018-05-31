@@ -36,7 +36,8 @@ Reynald will present a slide introducing very briefly the work done by Sergi on 
 ## 4. Go through the main issues and define priorities
 
 Members of ALBA mentioned the problem they have with ZMQ and the fact that we currently cannot tell to ZMQ to use predefined ports. This is a problem for ZMQ events to go through firewalls.
-*Action*: ALBA will create an issue on TangoTickets Github repository.
+
+**Action**: ALBA will create an issue on TangoTickets Github repository.
 
 The highest priority is currently to solve the issues related to events compatibility with Tango 7 and 8.
 
