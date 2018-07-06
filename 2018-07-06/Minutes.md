@@ -27,4 +27,6 @@ running jive on Java 9 issues: [Jtango issue #53](https://github.com/tango-contr
 
 Tango Kernel camp: Date must be specified, suitable option for is a few days in between late September - earlry October; places: SOLARIS; DESY; ESRF
 
+IKhokhriakov suggested to create a doodle poll to define place and/or dates.
+
 
