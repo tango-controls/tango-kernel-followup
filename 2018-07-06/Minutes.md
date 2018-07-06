@@ -11,6 +11,7 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF)
 
 ## 2. Tango Source Distribution (Solaris contribution)
 
+PR for TangoSourceDistribution: [link](https://github.com/tango-controls/TangoSourceDistribution/pull/8)
 
 ## 3. cppTango News
 
