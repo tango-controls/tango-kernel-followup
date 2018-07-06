@@ -25,7 +25,7 @@ PR for TangoSourceDistribution: [link](https://github.com/tango-controls/TangoSo
 
 running jive on Java 9 issues: [Jtango issue #53](https://github.com/tango-controls/JTango/issues/53), [forum topic](http://www.tango-controls.org/community/forum/c/general/installation/installing-jive-on-debian-stretch/?page=1#post-3454)
 
-Tango Kernel camp: Date must be specified, a suitable option is for a few days in between late September - earlry October; places: SOLARIS; DESY; ESRF
+Tango Kernel camp: Date must be specified, a suitable option is for a few days in between late September - earlry October; places: SOLARIS; DESY; ESRF; ???
 
 Ingvord suggested to create a doodle poll to define place and/or dates.
 
