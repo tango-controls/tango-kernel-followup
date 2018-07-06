@@ -8,6 +8,7 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF)
 # Minutes
 ## 1. Windows support (VS2017 support, appveyor artefacts retention policy, Solaris contribution...)
 
+Appveyor release build artifacts should be uploaded to GitHub release page. For this current appveyor script must be altered.
 
 ## 2. Tango Source Distribution (Solaris contribution)
 
@@ -15,9 +16,11 @@ PR for TangoSourceDistribution: [link](https://github.com/tango-controls/TangoSo
 
 ## 3. cppTango News
 
+Ingvord said that he will try to fix event system bugs in August + backport some V10 developments.
 
 ## 4. Go through the main issues and define priorities
 
+Hihghest priority for ESRF is the event system and its backward compatibility. The dead line is the next shutdown in the winter 2018/19.
 
 ## 5. AOB (JTango?, PyTango?, ...?)
 
