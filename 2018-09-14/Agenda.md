@@ -9,3 +9,4 @@ To be held on 2018/09/14 at 14:00 CET on https://esrf.vidyocloud.com/join/UVrb37
 4. Next Tango kernel and documentation meeting (where and when?)
 5. Go through main issues and define priorities
 6. AOB (JTango?, PyTango?, ...?)
+7. Status of Actions defined in the previous meetings
