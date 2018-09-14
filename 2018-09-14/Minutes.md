@@ -35,5 +35,6 @@ The following tasks had been defined during the previous meetings:
 **Action - Solaris**: Solaris will create a Doodle (or similar) to define place and/or dates.
 
 **Action - ESRF** : ESRF will create a repository (organization?) to host tango related tools which might be interesting for the community. ESRF will then inform the community.
+The following github organization was created for this purpose: https://github.com/tango-controls-tools
 
 **Action - ESRF**: Andy will contact tango-project.eu to inform them about tango-controls and to see whether they could use tango-controls.
