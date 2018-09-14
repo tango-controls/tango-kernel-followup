@@ -7,8 +7,15 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF),  Igor Khokhriakov (HZG-
 
 # Minutes
 ## 1. cppTango News (cppTango 9.3.2rc, SonarQube, coverall, backports from Tango 10 development branch, ...)
+cppTango 9.3.2 has been (pre-)released this week. It is installed on parts of the ESRF control system since Tuesday 11th September 2018. No problem reported so far. Please test this version if you can.
+
+Igor integrated SonarQube and Coverall in cppTango.
 
 ## 2. Windows support (VS2017support, appveyor artefacts retention policy, Solaris contribution...)
+
+appveyor builds have been repaired thanks to the work done by Sébastien Gara and Reynald Bourtembourg.
+
+We will need to agree on a limited list of MSVC compilers to put in the automatic builds to avoid to slow them down too much. It is possible to build for all the old compilers and new compilers after every commit/PR, using APPVEYOR_BUILD_WORKER_IMAGE tweak variable as described in appveyor documentation (https://www.appveyor.com/docs/build-environment/#using-multiple-images-for-the-same-build) but we should still limit the number of compilers used for each build to speed up the builds.
 
 ## 3. Tango Source Distribution (Solaris contribution)
 
@@ -29,6 +36,8 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF),  Igor Khokhriakov (HZG-
 The following tasks had been defined during the previous meetings:
 
 **Action - ESRF**: ESRF will send an e-mail to tango-controls info mailing list and post a message on the forum to try to get some feedback from the users to know whether the old compilers support is still required.
+
+The e-mail was sent and a new topic was posted on the forum. We got some feedback from users who need support for msvc9 and win32-msvc12.
 
 **Action - ALBA** from previous teleconf meeting: ALBA will create a ticket in TangoTicket to request the possibility to specify the ports used by ZMQ.
 
