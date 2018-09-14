@@ -63,7 +63,7 @@ Users are invited to vote for the issues which are the most critical for them by
 **Action - All institutes**: Please vote (+1 comment in the issue, or e-mail) for the most critical issues you would like to get solved.
 
 There is a bug in JTango where an event client reconnection does not work properly when it is subscribing to events coming from a device server running on a host having several network interfaces, and when the first listed interface is the private network interface.
-According to Igor, this bug is fixed in JTango master branch by binding to every network interface. Lorenzo metioned that this could be a problem in some situations. Igor suggested to implement this simple solution first and to improve it with configuration options later. A PR with the backport of this fix will have to be created especially for tango-9-lts, adapting the original PR to avoid all the deprecations it introduced originally.
+According to Igor, this bug is fixed in JTango master branch by binding to every network interface. Lorenzo mentioned that this could be a problem in some situations. Igor suggested to implement this simple solution first and to improve it with configuration options later. A PR with the backport of this fix will have to be created especially for tango-9-lts, adapting the original PR to avoid all the deprecations it introduced originally.
 
 **Action - Igor?**: A PR with the backport of JTango fix for the reconnection bug when there are several network interfaces will have to be created especially for tango-9-lts, adapting the original PR to avoid all the deprecations it introduced originally.
 
