@@ -10,7 +10,7 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF), Igor Khokhriakov (HZG-I
 ## 1. cppTango News (cppTango 9.3.2rc, SonarQube, coverall, backports from Tango 10 development branch, ...)
 cppTango 9.3.2 has been (pre-)released this week. It is installed on parts of the ESRF control system since Tuesday 11th September 2018. No problem reported so far. Please test this version if you can.
 It mainly solve some issues related to events. In theory, device servers compiled with an older Tango 9 version do not need to be recompiled to work with this new version but there could be some pitfalls due to the fact that libtango and liblog4tango libraries have been merged together in libtango.
-It is no longer required to link with liblog4tango so some files used by POGO should be updated to avoid think unecessary link.
+It is no longer required to link with liblog4tango so some files used by POGO should be updated to avoid this unecessary link.
 
 Igor integrated SonarQube and Coverall in cppTango. This gives very nice reports on Test Coverage status and code analysis.
 
