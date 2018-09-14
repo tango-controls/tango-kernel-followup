@@ -10,5 +10,6 @@ To be held on 2018/09/14 at 14:00 CET on https://esrf.vidyocloud.com/join/UVrb37
 5. Go through main issues and define priorities
 6. Waltz new release deployment at ESRF
 7. JetBrains OS license renewal
-8. AOB (JTango?, PyTango?, ...?)
-9. Status of Actions defined in the previous meetings
+8. TangoBox status
+9. AOB (JTango?, PyTango?, ...?)
+10. Status of Actions defined in the previous meetings
