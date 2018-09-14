@@ -16,7 +16,13 @@ Participants: Reynald Bourtembourg, Andrew Goetz (ESRF),  Igor Khokhriakov (HZG-
 
 ## 5. Go through the main issues and define priorities
 
-## 6. AOB (JTango?, PyTango?, ...?)
+## 6. Waltz new release deployment at ESRF
+
+## 7. JetBrains OS license renewal
+
+## 8. TangoBox status
+
+## 9. AOB (JTango?, PyTango?, ...?)
 
 ## 7. Status of Actions defined in the previous meetings:
 
@@ -28,6 +34,6 @@ The following tasks had been defined during the previous meetings:
 
 **Action - Solaris**: Solaris will create a Doodle (or similar) to define place and/or dates.
 
-**Action - ESRF** : ESRF will create a repository (organization?) to host tango related tools which might be interesting for the community. ESRF will ten inform the community.
+**Action - ESRF** : ESRF will create a repository (organization?) to host tango related tools which might be interesting for the community. ESRF will then inform the community.
 
 **Action - ESRF**: Andy will contact tango-project.eu to inform them about tango-controls and to see whether they could use tango-controls.
