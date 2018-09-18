@@ -67,6 +67,8 @@ According to Igor, this bug is fixed in JTango master branch by binding to every
 
 **Action - Igor?**: A PR with the backport of JTango fix for the reconnection bug when there are several network interfaces will have to be created especially for tango-9-lts, adapting the original PR to avoid all the deprecations it introduced originally.
 
+See [JTango-PR#60](https://github.com/tango-controls/JTango/pull/60)
+
 Igor is facing a bug when using JTango. He gets some random timeouts from time to time when running on a highly loaded system.
 He had a look at JacORB synchronization but the problem does not seem to come from there nor from the java garbage collector.
 Andy suggested to decrease the timeout (from 3 seconds to few tens or hundreds of ms) to potentially increase the probablility of triggering the problem.
