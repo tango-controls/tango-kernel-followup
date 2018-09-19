@@ -89,6 +89,8 @@ Lorenzo mentioned a meeting dedicated to web applications which will be organize
 
 **Action - Igor**: Igor will contact JetBrains to renew the JetBrains licenses used by the Tango kernel developers.
 
+**Ingvord**: new licenses have been acquired
+
 ## 8. TangoBox status
 
 Tango events do not work properly on the latest TangoBox (9.2_RC11). Piotr is preparing a new version based on Ubuntu 18.04 and will ensure the events work properly on the new one.
