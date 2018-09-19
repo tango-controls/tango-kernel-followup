@@ -67,7 +67,7 @@ According to Igor, this bug is fixed in JTango master branch by binding to every
 
 **Action - Igor?**: A PR with the backport of JTango fix for the reconnection bug when there are several network interfaces will have to be created especially for tango-9-lts, adapting the original PR to avoid all the deprecations it introduced originally.
 
-See [JTango-PR#60](https://github.com/tango-controls/JTango/pull/60)
+**Ingvord**: See [JTango-PR#60](https://github.com/tango-controls/JTango/pull/60)
 
 Igor is facing a bug when using JTango. He gets some random timeouts from time to time when running on a highly loaded system.
 He had a look at JacORB synchronization but the problem does not seem to come from there nor from the java garbage collector.
@@ -75,6 +75,8 @@ Andy suggested to decrease the timeout (from 3 seconds to few tens or hundreds o
 He also suggested to use wireshark to see what's happening on the network. Igor is welcoming any additional advice/help anyone could have to help debugging this issue.
 
 **Action - Anyone willing to help**: Igor is welcoming any additional advice/help anyone could have to help debugging the JTango random timeouts issue.
+
+**Ingvord**: looks like there similar issues already exist since ages: [JTango-18](https://github.com/tango-controls/JTango/issues/18) and [JTango-19](https://github.com/tango-controls/JTango/issues/19)
 
 ## 6. Waltz new release, deployment at ESRF
 
