@@ -43,6 +43,8 @@ The Solaris team is extremely busy at the moment and they don't know yet until w
 
 **Action - Igor**: Igor volunteered to spend some hours from his contract on the Tango Source Distribution.
 
+**Ingvord**: the progress can be tracked in [this PR](https://github.com/tango-controls/TangoSourceDistribution/pull/8). Shortly speaking some additional work is required in some Tango components before we can start to assemble new distributions. Namely, add CMake files to some C++ projects (make environment independent existing ones); ensure proper maven releases (especially of pogo) etc.
+
 ## 4. Next Tango kernel and documentation meeting (where and when?)
 
 It appears that several institutes will be very busy until the end of this year so this Tango kernel and documentation meeting (3 days meeting) will not take place in 2018.
