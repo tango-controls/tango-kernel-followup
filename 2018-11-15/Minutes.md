@@ -54,6 +54,8 @@ Here is the list of compilers versions on Windows for which support has been req
 
 Elettra is currently compiling for Windows 7 32 bits with Microsoft Visual C++ 2010 Express SP1 (Elettra) but is progressively switching to Windows 10 64 bits with Microsoft Visual C++ 2010 Express SP1 or more recent (Elettra)
 
+Please update the following forum section if you need support for other compiler versions on Windows: http://www.tango-controls.org/community/forum/c/general/rfc/old-windows-compilers-support
+
 **Action - Solaris**: Send a link to ESRF to the cppTango Visual Studio 2017 artifacts. **Done immediately after the meeting**. Thanks Irek!
 
 ## Tango Source Distribution
