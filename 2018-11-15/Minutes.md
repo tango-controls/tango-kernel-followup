@@ -49,10 +49,11 @@ ESRF received some answers from Elettra, Soleil, Thales listing the Microsoft co
 Here is the list of compilers versions on Windows for which support has been requested:
 
 - MSVC9 - 32 bits (Thales)
+- MSVC10 - 32 bits (Elettra)
 - MSVC12 - 32 bits (Soleil, Thales)
-- Visual Studio 2017 - 64 bits (ESRF)
+- MSVC141 (Visual Studio 2017) - 64 bits (ESRF)
 
-Elettra is currently compiling for Windows 7 32 bits with Microsoft Visual C++ 2010 Express SP1 (Elettra) but is progressively switching to Windows 10 64 bits with Microsoft Visual C++ 2010 Express SP1 or more recent (Elettra)
+Elettra is currently compiling for Windows 7 32 bits with Microsoft Visual C++ 2010 Express SP1 (MSVC10) (Elettra) but is progressively switching to Windows 10 64 bits with Microsoft Visual C++ 2010 Express SP1 or more recent (Elettra)
 
 Please update the following forum section if you need support for other compiler versions on Windows: http://www.tango-controls.org/community/forum/c/general/rfc/old-windows-compilers-support
 
