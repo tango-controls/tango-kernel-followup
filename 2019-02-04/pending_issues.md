@@ -41,6 +41,8 @@ positive (!)
 
 SKA:
  - PyTango, get unit tests passing on Travis CI again
+ - testing client and server across different Python versions (e.g. 2.7
+client with 3.7 server).
 
 Forward attributes issues:
  - Add to docs Warning about forwarded attributes which are currently not reliable.
@@ -65,7 +67,8 @@ PyTango: Study DS problem when using taurus 4 attribute (with serial mode)
  - Shutdown the device server cannot be killed anymore from Astor
 
  - Units: A string unit property is missing to for standard unit label
- -- Check if already done and document it
+  - Tango Unitless vs not unit
+  - Check if already done and document it
 
 Documentation pending
 =====================
@@ -101,11 +104,9 @@ SOLARIS: data streaming for high speed detectors:
  - But, would be good to document what is the limit
  
 SOLARIS:
- - iot direction, mobile applications, how are we related?
+ - iot direction, mobile applications, how are we related? add a note to the main website
  
 SKA:
- - testing client and server across different Python versions (e.g. 2.7
-client with 3.7 server).
  - get a better understanding of PyTango architecture
 
 ALBA:
@@ -115,13 +116,11 @@ integration with tango documentation
  - Expand on debugging and testing:
  - https://tango-controls.readthedocs.io/en/latest/
 development/debugging-and-testing/index.html
- - Review of simulators documentation and examples
- - Tango.js documentation ? Alternatives?
+ - Review of simulators documentation and examples (tango-simlib / simulatords)
  - Doc Tango source package creation. Missing deps. (Debian)
- - Tips for setting new conf. for mariadb
- - Tango Heart beat
-ESRF: ● add an advanced section on how to debug heartbeat pb with wireshark 
- - Tango Unitless vs not unit
+ 
+ - Tango Heart beat: how it works??
+ESRF: - add an advanced section on how to debug heartbeat pb with wireshark 
 
 Enhancement proposals
 =====================
@@ -131,8 +130,8 @@ Thomas Braun:
  - Database with SQLite: https://github.com/ALBA-Synchrotron/pydatabaseds
  
 MAX IV:
-CORBA alternative
-● Run Tango on k8s (related to CORBA as well)
+- CORBA alternative
+- Run Tango on k8s (related to CORBA as well)
 
 SKA:
 Debian science gitlab pipeline?
@@ -144,18 +143,19 @@ SOLARIS:
  - simplification of C++ API (something like High Level API in PyTango)
  - transport protocols as plugins
 
+ALBA:
+
 - PostgreSQL/TimescaleDB schema?
+ - Viewer/Extractor for multiple DB's? Correlate different DB's on java viewer or eGiga?
 
-- Viewer/Extractor for multiple DB's? Correlate different DB's on java viewer or eGiga?
+SKA: 
 
-SKA: ability to set a different log level for each log target. This is
+ - ability to set a different log level for each log target. This is
 part of the SKA design guidelines. We need the same device to log
 to 3 different targets, each with an independently configured log
 level.
 
-
-Things not to solve
-===================
+Others:
 
 - Tango library adaptation to work witch C#
 
