@@ -1,6 +1,7 @@
 
 Purpose of this document is to organize the list of topics shared by each institute before the kernel meeting
 
+Also on: https://hackmd.io/JdQKNVISTBimKtcade7TIw
 
 
 
