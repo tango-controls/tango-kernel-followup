@@ -114,8 +114,7 @@ ALBA:
  - Fandango / PyTangoArchiving / Panic documentation update ;
 integration with tango documentation
  - Expand on debugging and testing:
- - https://tango-controls.readthedocs.io/en/latest/
-development/debugging-and-testing/index.html
+ - https://tango-controls.readthedocs.io/en/latest/development/debugging-and-testing/index.html
  - Review of simulators documentation and examples (tango-simlib / simulatords)
  - Doc Tango source package creation. Missing deps. (Debian)
  
