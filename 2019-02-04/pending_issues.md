@@ -37,6 +37,10 @@ Problems
 positive (!)
 - Improve the Travis tests
 
+SKA:
+ PyTango, get unit tests passing on Travis CI again
+
+ALBA:
 ● Not all messages from a DS are logged when launched from Astor #24
 
 ALBA:
@@ -53,6 +57,9 @@ PyTango: Study DS problem when using taurus 4 attribute (with serial mode)
 
 - Units: A string unit property is missing to for standard unit label
  -- Check if already done and document it
+
+Python 2 vs Python 3: DevString with bytes -
+https://github.com/tango-controls/pytango/issues/251 
 
 Documentation pending
 =====================
@@ -92,6 +99,11 @@ SOLARIS: data streaming for high speed detectors:
  
 SOLARIS:
  - iot direction, mobile applications
+ 
+SKA:
+testing client and server across different Python versions (e.g. 2.7
+client with 3.7 server).
+● get a better understanding of PyTango architecture
 
 ALBA:
  - status of current Web applications: summarize what exists and status
@@ -111,6 +123,18 @@ ESRF: ● add an advanced section on how to debug heartbeat pb with wireshark
 Enhancement proposals
 =====================
 
+Thomas Braun: 
+ - using namespace: https://github.com/tango-controls/cppTango/issues/206 
+ - Database with SQLite: https://github.com/ALBA-Synchrotron/pydatabaseds
+ 
+MAX IV:
+CORBA alternative
+● Run Tango on k8s (related to CORBA as well)
+
+SKA:
+Debian science gitlab pipeline?
+https://salsa.debian.org/science-team/pytango 
+
 SOLARIS:
 
  - database engine as plugin
@@ -120,6 +144,11 @@ SOLARIS:
 ● PostgreSQL/TimescaleDB schema?
 
 ● Viewer/Extractor for multiple DB's? Correlate different DB's on java viewer or eGiga?
+
+SKA: ability to set a different log level for each log target. This is
+part of the SKA design guidelines. We need the same device to log
+to 3 different targets, each with an independently configured log
+level.
 
 
 Things not to solve
