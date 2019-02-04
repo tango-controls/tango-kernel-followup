@@ -120,7 +120,9 @@ development/debugging-and-testing/index.html
  - Doc Tango source package creation. Missing deps. (Debian)
  
  - Tango Heart beat: how it works??
-ESRF: - add an advanced section on how to debug heartbeat pb with wireshark 
+
+ESRF: 
+ - add an advanced section on how to debug heartbeat pb with wireshark 
 
 Enhancement proposals
 =====================
