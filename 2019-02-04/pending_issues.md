@@ -79,7 +79,6 @@ well as in the tango-controls documentation.
 ALBA: HDB++ status:
 
  - mysql/mariadb divergence
- - lack of collaboration/sharing?
  - myIsam/Aria/InnoDB comparison in cpu/disk usage
  - comments/results on JSON implementation for arrays
 
