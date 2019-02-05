@@ -156,6 +156,13 @@ SKA:
 part of the SKA design guidelines. We need the same device to log
 to 3 different targets, each with an independently configured log
 level.
+- support for vector of Enum
+- support for complex data type (e.g. re,im)
+- support for alarm event
+- support for hysteresis in TANGO attribute alarms
+- profiling support, e.g. device server collects statistics about connections, events/s, commands, attribute reads....
+- simulation support (device mockup)
+
 
 Others:
 
