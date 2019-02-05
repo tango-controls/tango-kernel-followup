@@ -1,11 +1,8 @@
 
 Purpose of this document is to organize the list of topics shared by each institute before the kernel meeting
-
-Also on: https://hackmd.io/JdQKNVISTBimKtcade7TIw
-
-
-
-
+in Krakow in February 2019. The issues have been presenting to everyone for discussion and then ordered 
+by Sergi, Andy, Michael and the Solaris team.
+ 
 
 Critical issues on tango
 ========================
@@ -136,7 +133,7 @@ MAX IV:
 - Run Tango on k8s (related to CORBA as well)
 
 SKA:
-Debian science gitlab pipeline?
+Debian science gitlab pipeline for building PyTango deb packages for more OSs (Ubuntu 14, 16, 18)
 https://salsa.debian.org/science-team/pytango 
 
 SOLARIS:
