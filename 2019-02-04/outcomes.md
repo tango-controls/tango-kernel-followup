@@ -1,25 +1,35 @@
 This document summarises the outcomes of the Kernel and Doc Camp held at SOLARIS in Krakow in February 2019
 
-1. cppTango 9.3.x
+**V10 way forward
 
-2. pyTango 9.3.x
+0. start with a new code base for the new developments
+1. specify and define the Tango protocol using a formal specification language
+2. define the minimum set of features to implement in a V10 prototype
+3. implement the V10 prototype in (atleast) C++ in a new code base
+4. Collaboration to invest more (up to 50% of budget) on V10
 
-3. continuous integration
+**cppTango 9.3.x**
 
-Added support for VS2017 on Windows
+**pyTango 9.3.x**
 
-4. cppTango improvements 
+**continuous integration**
 
-using namespace std::
+1. Added support for VS2017 on Windows
 
-5. pyTango improvements
+**cppTango improvements**
 
-6. bug fixes
+1. using namespace std::
 
-7. documentation
+**pyTango improvements**
 
-8. distributed databases
+**cppTango bug fixes**
 
-9. HDB++ way forward
+**cppTango bug fixes**
 
-10. V10 way forward
+**documentation improvements**
+
+**distributed databases**
+
+**HDB++ way forward**
+
+
