@@ -157,9 +157,9 @@ level.
 - support for complex data type (e.g. re,im)
 - support for daytime datatype, with ms or us
 - TANGO Attribute Alarms
-      + support for configurable hysteresis in TANGO attribute alarms
-      + Support TANGO Attribute alarms in additional State (e.g. RUNNING, MOVING, STANDBY...). Configurable list, backwards compatible?
-      + add specific alarm_event
+  - support for configurable hysteresis in TANGO attribute alarms
+  - Support TANGO Attribute alarms in additional State (e.g. RUNNING, MOVING, STANDBY...). Configurable list, backwards compatible?
+  - add specific alarm_event
 - profiling support, e.g. device server collects statistics about connections, events/s, commands, attribute reads....
 - simulation support (device mockup)
 - support for seamless integration of TANGO facilities: facilities federation?
