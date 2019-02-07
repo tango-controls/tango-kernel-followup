@@ -4,8 +4,9 @@ This document summarises the outcomes of the Kernel and Doc Camp held at SOLARIS
 
 1. specify and define the Tango protocol using a formal specification language
 2. define the minimum set of features to implement in a V10 prototype
-3. implement the V10 prototype in (atleast) C++ in a new code base
-4. Collaboration to invest more (up to 50% of budget) on V10
+3. design the prototype in a programming language neutral manner
+4. an implementation of an evolutionary prototype with minimum functionality
+5. Collaboration to invest more (up to 50% of budget) on V10
 
 **cppTango 9.3.x**
 
