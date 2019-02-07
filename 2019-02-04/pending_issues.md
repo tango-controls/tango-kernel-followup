@@ -153,12 +153,19 @@ SKA:
 part of the SKA design guidelines. We need the same device to log
 to 3 different targets, each with an independently configured log
 level.
-- support for vector of Enum
+- support for vector of Enum (image?)
 - support for complex data type (e.g. re,im)
-- support for alarm event
-- support for hysteresis in TANGO attribute alarms
+- support for daytime datatype, with ms or us
+- TANGO Attribute Alarms
+      + support for configurable hysteresis in TANGO attribute alarms
+      + Support TANGO Attribute alarms in additional State (e.g. RUNNING, MOVING, STANDBY...). Configurable list, backwards compatible?
+      + add specific alarm_event
 - profiling support, e.g. device server collects statistics about connections, events/s, commands, attribute reads....
 - simulation support (device mockup)
+- support for seamless integration of TANGO facilities: facilities federation?
+- support for fully asynchronous TANGO device, e.g. firing events without polling (and coding)
+- make logging sybsystem pluggable, support multiple concurrent plugins
+- integrate support for VCS in TANGO DB (save to/load from git?)
 
 
 Others:
