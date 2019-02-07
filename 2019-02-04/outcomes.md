@@ -1,8 +1,7 @@
 This document summarises the outcomes of the Kernel and Doc Camp held at SOLARIS in Krakow in February 2019
 
-**V10 way forward
+**V10 way forward**
 
-0. start with a new code base for the new developments
 1. specify and define the Tango protocol using a formal specification language
 2. define the minimum set of features to implement in a V10 prototype
 3. implement the V10 prototype in (atleast) C++ in a new code base
