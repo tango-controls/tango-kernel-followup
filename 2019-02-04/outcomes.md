@@ -17,14 +17,18 @@ This document summarises the outcomes of the Kernel and Doc Camp held at SOLARIS
 1. Added support for VS2017 on Windows
 
 **cppTango improvements**
-
-1. using namespace std::
+Proposed PRs:
+ - [Support Visual Studio 2019 in feature test macros](https://github.com/tango-controls/cppTango/pull/527)
+ - [Make `using namespace std;` optional](https://github.com/tango-controls/cppTango/pull/528)
+ - [Rework documentation regarding installation](https://github.com/tango-controls/cppTango/pull/529)
+ - [CMake: Add compile check to test for correct ZeroMQ C++ headers](https://github.com/tango-controls/cppTango/pull/530)
+ - [Fix events compatibilities issues (#492)...](https://github.com/tango-controls/cppTango/pull/531)
 
 **pyTango improvements**
 
-**cppTango bug fixes**
+**TangoSourceDistribution improvements**
+ - [Enhance pogo cpp templates](https://github.com/tango-controls/TangoSourceDistribution/pull/16)
 
-**cppTango bug fixes**
 
 **documentation improvements**
 
