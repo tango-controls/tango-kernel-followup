@@ -39,6 +39,7 @@ There is still an event reconnection issue on java client side in a specific cas
 ## Waltz News
 
 Release [v0.7](https://github.com/tango-controls/waltz/releases/tag/v0.7)
+Release [v0.7.1](https://github.com/tango-controls/waltz/releases/tag/v0.7.1)
 
 
 ## HDB++
