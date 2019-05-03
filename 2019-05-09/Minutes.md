@@ -38,6 +38,9 @@ There is still an event reconnection issue on java client side in a specific cas
 
 ## Waltz News
 
+Release [v0.7](https://github.com/tango-controls/waltz/releases/tag/v0.7)
+
+
 ## HDB++
 
 Do we organize an HDB++ meeting this year? When and where?
