@@ -4,7 +4,7 @@ To be held on 2019/05/09 at 14:00 CET on https://esrf.vidyocloud.com/join/UVrb37
 
 # Agenda
 1. cppTango News
-2. sys/tango-benchmark
+2. sys-tango-benchmark
 3. Tango Source Distribution
 4. ICALEPCS Tango workshop
 5. JTango News
