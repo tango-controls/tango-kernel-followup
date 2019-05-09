@@ -28,7 +28,7 @@ Some support contracts have been agreed with S2Innovation and BytePhysics (Thoma
 
 The administrative part will be completed soon. Piotr Goryl and Michal Liszcz from S2Innovation will come to the ESRF next week for a couple of days. They will leave with some homework.
 
-Igor mentioned that he still has ~80 (?) hours to be spent on cppTango. 
+Igor mentioned that he still has ~40 hours to be spent on cppTango. 
 
 **Action - IK**: Work on server_init_hook() ([cppTango#498](https://github.com/tango-controls/cppTango/issues/498))
 
