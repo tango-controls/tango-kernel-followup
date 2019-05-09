@@ -48,16 +48,16 @@ They are available on the following Github repository: https://github.com/tango-
 
 Users can test it by using [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) branch.
 
-Michal Liszcz has fixed [TangoDistribution#21](https://github.com/tango-controls/TangoSourceDistribution/issues/21).
- He will work on [TangoDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30) and will try to update 
+Michal Liszcz has fixed [TangoSourceDistribution#21](https://github.com/tango-controls/TangoSourceDistribution/issues/21).
+ He will work on [TangoSourceDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30) and will try to update 
 the automake files to merge liblog4tango and libtango libraries.
 The next release will be available after this has been fixed (if it's not too long and too difficult to fix).
 
 Some cleanup needs to be done in the README, INSTALL, TANGO_CHANGES and similar files.
 
-**Action - S2Innovation**: Work on [TangoDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30)
+**Action - S2Innovation**: Work on [TangoSourceDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30)
 
-**Action - All**: Users are encourgaed to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
+**Action - All**: Users are encouraged to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
 
 ## ICALEPCS TANGO Workshop
 
@@ -192,9 +192,9 @@ use tango-controls.
 
 **Action - All**: Users are encouraged to test the [sys-tango-benchmark](https://github.com/tango-controls/sys-tango-benchmark) tools before the next Tango meeting at Hamburg (beginning of June) and to provide feedback.
 
-**Action - S2Innovation**: Work on [TangoDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30)
+**Action - S2Innovation**: Work on [TangoSourceDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30)
 
-**Action - All**: Users are encourgaed to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
+**Action - All**: Users are encouraged to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
 
 **Action - ESRF**: Create an Indico page with a draft agenda for ICALEPCS TANGO workshop.
 
