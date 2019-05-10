@@ -163,7 +163,7 @@ use tango-controls. **To be done**
 Review [TangoDistribution#8](https://github.com/tango-controls/TangoSourceDistribution/pull/8). **Done but new action to test prepare-9.3.3 branch**.
 
 **Action**: Organize an HDB++ meeting in 2019. Maybe dedicate a full day for an HDB++ meeting during the week of the 
-next Tango meeting at DESY. **Discussion will take place during the next Tango meeting to decide on the next HDB++ meeting**
+next Tango meeting at DESY. **Discussion will take place during the next Tango meeting (DESY, 3-5/06/2019) to decide on the next HDB++ meeting**
 
 **Action - ESRF, IK**: JTango: clarify actions to be done to fix the event reconnection issues with java clients 
 subscribing to events coming from hosts having several network interfaces. **Done** 
