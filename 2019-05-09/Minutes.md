@@ -119,6 +119,8 @@ It has been prepared using [prepare-9.3.3](https://github.com/tango-controls/Tan
 It is currently using a version of prepare-9.3.3 branch which is without the fix on Java logback file.
 This fix will be added soon to the TangoBox.
 
+The docker containers for the TangoBox are currently built at S2Innovation GitLab (with gitlab CI). See [the repository](https://gitlab.com/s2innovation/tangobox-docker/tree/master).
+
 **Action - S2Innovation**: Add Java logback fix to TangoBox 9.3.3
 
 The TangoBox is using many docker containers. These containers have been updated in order to use the latest tango version.
