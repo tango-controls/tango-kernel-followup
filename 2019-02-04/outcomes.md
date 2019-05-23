@@ -15,6 +15,7 @@ This document summarises the outcomes of the Kernel and Doc Camp held at SOLARIS
 **continuous integration**
 
 1. Added support for VS2017 on Windows
+2. Decision was taken to stop support for MSVC9, MSVC10 and MSVC12. The builds for these MSVC compiler versions will be removed from appveyor. If some users still need to compile cppTango using these compilers, they will need to fork cppTango and maintain a version compatible with these old compilers.
 
 **cppTango improvements**
 Proposed PRs:
