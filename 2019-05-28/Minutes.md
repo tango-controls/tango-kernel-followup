@@ -23,9 +23,7 @@ Users can test it by using [prepare-9.3.3](https://github.com/tango-controls/Tan
 
 ## Waltz News
 
-## HDB++
-
-## TangoBox status
+## TangoBox News
 
 **Action - All**: Users are encouraged to test the new TangoBox and to provide feedback.
 
@@ -35,6 +33,8 @@ Users can test it by using [prepare-9.3.3](https://github.com/tango-controls/Tan
 like to get solved first.
 
 ## AOB
+
+Pascal Verdier is currently trying to update POGO in order to use the latest version of xtend/xtext which was released in March.
 
 ## Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2019-05-09/Minutes.md#summary-of-remaining-actions)
 
