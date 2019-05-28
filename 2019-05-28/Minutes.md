@@ -1,6 +1,6 @@
 # Tango Kernel Follow-up Meeting - 2019/05/28
 
-Held on 2019/05/28 at 15:00 CET on https://esrf.vidyocloud.com/join/UVrb371ZVe
+Held on 2019/05/28 at 15:00 CEST on https://esrf.vidyocloud.com/join/UVrb371ZVe
 
 Participants: 
 

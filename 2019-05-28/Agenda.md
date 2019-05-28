@@ -1,9 +1,9 @@
 # Tango Kernel Follow-up Meeting - 2019/05/28
 
-To be held on 2019/05/28 at 15:00 CET on https://esrf.vidyocloud.com/join/UVrb371ZVe
+To be held on 2019/05/28 at 15:00 CEST on https://esrf.vidyocloud.com/join/UVrb371ZVe
 
 # Agenda
- 1. Tango Source Distribution
+ 1. Tango Source Distribution News
  2. Tango meeting in Hamburg
  3. cppTango News
  4. JTango News
