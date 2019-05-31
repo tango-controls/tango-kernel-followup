@@ -46,6 +46,8 @@ It would be good to get some slides about JTango too.
 
 **Action - Alba**: Provide some slides giving the latest news from PyTango for the Tango meeting
 
+The slides will be added to Guifre's presentation regarding Alba contributions
+
 **Action - JTango team**: Provide some slides giving the latest news from JTango for the Tango meeting
 
 ## cppTango News
@@ -67,6 +69,9 @@ cppTango does not compile when using the master branch of cppzmq. So it will pro
 Reynald said that the next Pull Request to be merged will be [cppTango#526](https://github.com/tango-controls/cppTango/pull/526) 
 which was proposed by Michal and which should reduce the compilation time. 
 He invited Thomas Braun to review this PR before we merge it.
+
+At ALBA, we discovered a problem regarding the initialization values of different types of attributes. It is PyTango Bug #271 and was fixed with PR #273 in PyTango. But this problem means that now C++ and python return different values whenever the write value is not initialized. T.Coutinho is on charge on creating an issue in the C++ queue to solve that.
+
 
 **Action - cppTango developers and volunteers**: Review [cppTango#551](https://github.com/tango-controls/cppTango/pull/551), 
 [cppTango#555](https://github.com/tango-controls/cppTango/pull/555), [cppTango#552](https://github.com/tango-controls/cppTango/pull/552), 
@@ -114,11 +119,14 @@ like to get solved first.
 ## AOB
 
 ### HDB++
+
 HDB++ TimescaleDB C++ insertion and Java extraction libraries are being developed.
 The insertion library will be tested against the HDB++ Event Subscribers in the coming days. 
 The DB schema is not the same as the one used by the PostgreSQL HDB++ library.
 TimescaleDB HDB++ C++ insertion library source code (including the new DB schema) will be published on Github before the 
 Tango meeting. We can discuss it briefly during the Tango meeting.  
+
+At ALBA, changes are being done in MySQL schema to reduce disk size and improve retrieval speed.
 
 ### Pogo
 Pascal Verdier is currently trying to update POGO in order to use the latest version of xtend/xtext which was released in April 2019.
@@ -152,9 +160,13 @@ use tango-controls.
 
 **Action - All**: Users are encouraged to test the [sys-tango-benchmark](https://github.com/tango-controls/sys-tango-benchmark) tools before the next Tango meeting at Hamburg (beginning of June) and to provide feedback.
 
+At ALBA we have tested the benchmark, a review will be added to Guifre's slides.
+
 **Action - S2Innovation**: Work on [TangoSourceDistribution#30](https://github.com/tango-controls/TangoSourceDistribution/issues/30). **Done.**
 
 **Action - All**: Users are encouraged to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
+
+Already installed in two servers at ALBA, doing tests on it with Sardana and HDB++ packages.
 
 **Action - ESRF**: Create an Indico page with a draft agenda for ICALEPCS TANGO workshop. **Will be done before the Tango meeting**
 
@@ -215,12 +227,11 @@ explaining how to upgrade from a previous version. This will be presented during
 
 **Action - Alba**: Provide some slides giving the latest news from PyTango for the Tango meeting
 
+Slides will be added to Guifre's; as ALBA contribution to the community
+
 **Action - JTango team**: Provide some slides giving the latest news from JTango for the Tango meeting
 
 **Action - cppTango developers and volunteers**: Review [cppTango#551](https://github.com/tango-controls/cppTango/pull/551), 
 [cppTango#555](https://github.com/tango-controls/cppTango/pull/555), [cppTango#552](https://github.com/tango-controls/cppTango/pull/552), 
 [cppTango#530](https://github.com/tango-controls/cppTango/pull/530) and 
 [cppTango#526](https://github.com/tango-controls/cppTango/pull/526) Pull Requests
-
-**Action - Alba**: Give more details about the issue [pytango#273](https://github.com/tango-controls/pytango/pull/273). 
-In any case, this can be discussed at the coming Tango meeting.
