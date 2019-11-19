@@ -45,7 +45,7 @@ Max IV is currently still using CentOS 7 which comes with a compiler which is no
 They plan to move to CentOS 8 in 2020.
 
 It has been agreed during the meeting to require a C++ 11 compatible compiler for the tango-9-lts branch.
-A new decision will be taken around August 2020 to decide whether C++ 14 compatible compilers will be required for this branch too.
+A new decision will be taken around August 2020 to decide whether C++ 14 compatible compilers will be required for this branch too. (Info: C++11 support comes with gcc 4.8 - C++14 support comes with gcc 5.0)
 
 Very old compilers will still be supported in the 9.3-backports branch.
 
@@ -104,7 +104,7 @@ Travis for openjdk 7 failed. This needs to be investigated.
 ## PyTango News
 
 - SKA has done some work better documenting how DeviceTestContext works - will update PyTango docs
-- SKA planning more work on improving unit testing in our next 3 month cycle.  Prefer mocking DeviceProxy instead of Device, as the latter is much harder.
+- SKA planning more work on improving unit testing in the next 3-month development cycle.  Prefer mocking DeviceProxy instead of Device, as the latter is much harder.
 - MultiDeviceTestContext PR in progress (courtesy of Zibi) [#314](https://github.com/tango-controls/pytango/pull/314)
 - For Sardana, [#315](https://github.com/tango-controls/pytango/issues/315) "DS hangs when concurrently subscribing to events and destructing DeviceProxy" - is a blocker.
 - Plan release in next month or so, to include above, and a few minor changes: missing db methods, packaging issues.
@@ -154,11 +154,10 @@ cppTango 9.3.3 is now flagged as latest release on GitHub.
 
 **Action - All**: Users are encouraged to test [prepare-9.3.3](https://github.com/tango-controls/TangoSourceDistribution/tree/prepare-9.3.3) TangoSourceDistribution branch and to provide feedback.
 
-**Action - ESRF**: Create an Indico page with a draft agenda for ICALEPCS TANGO workshop. **Will be done before the Tango meeting**
-
 **Action - All**: Users are encouraged to test latest Waltz version and to provide feedback.
 
 **Action - ESRF, Elettra, Alba, other institutes interested in contributing to HDB++**: Decide how to organize the next HDB++ meeting. To be discussed during the next Tango meeting in Hamburg.
+HDB++ meeting took place 18-20 September at ESRF
 
 **Action - All**: Users are encouraged to test the new TangoBox and to provide feedback.
 
