@@ -66,11 +66,26 @@ Igor mentioned a problem with some random timeout issues (Igor, please add more 
 ## PyTango News
 
 Geoff Mant reported on the migration from Boost to PyBind11. 
-He developed some unit tests to tests commands, attributes, pipes, ...
-He created a TangoTest pyTango device server which really helps for the tests.
+The basic server & client code implementation is complete.
+A Python HL version of TangoTest was written for unit testing.
+The python code has been updated to version 9.3.
+* Unit tests completed for:
+    * commands 
+    * attributes
+    * pipes (read + write)
+    * polled events
+    * device_data
+    * attribute_proxy
 
-push event, groups, AttributeProxy (,...?) implementation still has to be done.
-
+* Unit tests required for:
+    * device_proxy (80% complete)
+    * properties
+    * database
+    * push_events (pipe_events complete)
+    * callbacks
+    * groups
+    * forwarded attributes
+    
 The development is done on [pytango pybind11 branch](https://github.com/tango-controls/pytango/tree/pybind11).
 
 **Action - Geoff**: Push the latest developments to [pytango pybind11 branch](https://github.com/tango-controls/pytango/tree/pybind11) on Github tango-controls pytango repository.
