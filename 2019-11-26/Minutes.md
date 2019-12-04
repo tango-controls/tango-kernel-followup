@@ -63,6 +63,26 @@ The same kind of solution should be implemented in JTango.
 
 Igor mentioned a problem with some random timeout issues (Igor, please add more details here).
 
+**Igor**: 
+
+Running this simple code snippet will almost 100% sure fail with CORBA.Timeout:
+
+```java
+@Test
+@Ignore
+public void testTimeout() throws Exception{
+    TangoAttribute attr = new TangoAttribute("development/test_server/0/double");
+
+    for(int i = 0; i<1_000_000; ++i) {
+        System.out.println(attr.read());
+    }
+}
+```
+
+TestServer project is located here: https://github.com/Ingvord/tango-test-server
+
+TestServer is launched on a different machine within the network
+
 ## PyTango News
 
 Geoff Mant reported on the migration from Boost to PyBind11. 
