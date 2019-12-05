@@ -81,7 +81,7 @@ public void testTimeout() throws Exception{
 
 TestServer project is located here: https://github.com/Ingvord/tango-test-server
 
-TestServer is launched on a different machine within the network
+TestServer is launched on a different machine within the network. Having 2 clients greatly improves probability of the timeout
 
 ## PyTango News
 
