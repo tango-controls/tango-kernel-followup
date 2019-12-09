@@ -83,6 +83,247 @@ TestServer project is located here: https://github.com/Ingvord/tango-test-server
 
 TestServer is launched on a different machine within the network. Having 2 clients greatly improves probability of the timeout
 
+Some test output:
+
+Client side:
+
+```
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 2999
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 84 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 52 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 120 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] wrote GIOP message of size 208 to ClientGIOPConnection to 131.169.65.121:37597 (58fdd99)
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.e.StreamConnectionBase] read 176 bytes from 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.g.GIOPConnection] read GIOP message of size 188 from ClientGIOPConnection to 131.169.65.121:37597 (58fdd99)
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.ClientConnectionManager] ClientConnectionManager: cannot release ClientGIOPConnection to 131.169.65.121:37597 (58fdd99) (still has 3 client(s))
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 2999
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 88 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 56 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 29 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] wrote GIOP message of size 125 to ClientGIOPConnection to 131.169.65.121:37597 (58fdd99)
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.e.StreamConnectionBase] read 276 bytes from 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [ClientMessageReceptor1 - o.j.o.g.GIOPConnection] read GIOP message of size 288 from ClientGIOPConnection to 131.169.65.121:37597 (58fdd99)
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.ClientConnectionManager] ClientConnectionManager: cannot release ClientGIOPConnection to 131.169.65.121:37597 (58fdd99) (still has 3 client(s))
+DEBUG 09-12-2019 12:49:22 [main - f.s.t.c.TangoAttribute] extracting fr.soleil.tango.clientapi.TangoAttribute@8e0379d[name=development/test_server/0/testTimeoutAttribute,type=DevString,format=Scalar,writeType=0]
+94757	1575895762515	com.intellij.rt.execution.junit.JUnitStarter - PID=7807	94758	1575895762519	1575895762521
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 3000
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 84 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 52 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.e.StreamConnectionBase] wrote 120 bytes to 131.169.65.121:37597
+DEBUG 09-12-2019 12:49:22 [main - o.j.o.g.GIOPConnection] wrote GIOP message of size 208 to ClientGIOPConnection to 131.169.65.121:37597 (58fdd99)
+DEBUG 09-12-2019 12:49:25 [main - o.j.o.Delegate] invoke[<--]: SystemException
+org.omg.CORBA.TIMEOUT: client timeout reached
+	at org.jacorb.orb.giop.ReplyPlaceholder.getInputStream(ReplyPlaceholder.java:139)
+	at org.jacorb.orb.ReplyReceiver.getReply(ReplyReceiver.java:388)
+	at org.jacorb.orb.Delegate._invoke_internal(Delegate.java:1451)
+	at org.jacorb.orb.Delegate.invoke_internal(Delegate.java:1209)
+	at org.jacorb.orb.Delegate.invoke(Delegate.java:1197)
+	at org.omg.CORBA.portable.ObjectImpl._invoke(ObjectImpl.java:475)
+	at fr.esrf.Tango._Device_5Stub.read_attributes_5(_Device_5Stub.java:1489)
+	at fr.esrf.TangoApi.DeviceProxyDAODefaultImpl.read_attribute(DeviceProxyDAODefaultImpl.java:1392)
+	at fr.esrf.TangoApi.DeviceProxyDAODefaultImpl.read_attribute(DeviceProxyDAODefaultImpl.java:1323)
+	at fr.esrf.TangoApi.DeviceProxy.read_attribute(DeviceProxy.java:794)
+	at fr.esrf.TangoApi.AttributeProxy.read(AttributeProxy.java:281)
+	at fr.soleil.tango.clientapi.attribute.RealAttribute$3.call(RealAttribute.java:95)
+	at fr.soleil.tango.clientapi.attribute.RealAttribute$3.call(RealAttribute.java:92)
+	at fr.soleil.tango.errorstrategy.RetriableTask.execute(RetriableTask.java:57)
+	at fr.soleil.tango.clientapi.attribute.RealAttribute.update(RealAttribute.java:104)
+	at fr.soleil.tango.clientapi.TangoAttribute.update(TangoAttribute.java:89)
+	at fr.soleil.tango.clientapi.TangoAttribute.read(TangoAttribute.java:102)
+	at hzg.wpn.tango.TestServerTest.testTimeoutAttribute(TestServerTest.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+DEBUG 09-12-2019 12:49:25 [main - o.j.o.Delegate] release the connection
+DEBUG 09-12-2019 12:49:25 [main - o.j.o.g.ClientConnectionManager] ClientConnectionManager: cannot release ClientGIOPConnection to 131.169.65.121:37597 (58fdd99) (still has 3 client(s))
+DEBUG 09-12-2019 12:49:25 [main - o.j.o.g.ClientConnectionManager] ClientConnectionManager: cannot release ClientGIOPConnection to 131.169.65.121:37597 (58fdd99) (still has 2 client(s))
+ERROR 09-12-2019 12:49:25 [main - f.s.t.e.RetriableTask] Caught exception, all retries done for error: exception message is: IDL:Tango/DevFailed:1.0
+Error Level 0:
+	 - desc: Device (development/test_server/0) timed out (>3000 ms)!
+	 - origin: development/test_server/0.class fr.esrf.TangoApi.DeviceProxyDAODefaultImpl.read_attribute)
+	 - reason: org.omg.CORBA.TIMEOUT: client timeout reached  vmcid: 0x0  minor code: 0  completed: No
+	 - severity: ERROR
+
+94758	1575895762521	timeout!!!	1575895765527
+```
+
+Server side:
+
+```
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.a.AttributeImpl] entry with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] entry
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] exit
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.a.AttributeImpl] exit with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.a.AttributeImpl] exit with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] entry
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] exit
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.s.DeviceImpl] exit
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.d.ServerRequest] ServerRequest: reply to read_attributes_5
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 0
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.e.StreamConnectionBase] wrote 188 bytes to 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.g.GIOPConnection] wrote GIOP message of size 188 to ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477)
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379052 opname: read_attributes_5 ends with request processing
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.e.StreamConnectionBase] read 161 bytes from 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.g.GIOPConnection] read GIOP message of size 173 from ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd
+7477)
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.p.POA] POA RootPOA rid: 379054 opname: get_attribute_config_2 _invoke: queuing request
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.p.RequestQueue] rid: 379054 opname: get_attribute_config_2 is queued (queue size: 1)
+DEBUG 09-12-2019 12:49:22 [RequestController-1 - o.j.p.RequestController] rid: 379054 opname: get_attribute_config_2 trying to get a RequestProcessor
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379054 opname: get_attribute_config_2 starts with request processing
+DEBUG 09-12-2019 12:49:22 [RequestController-1 - o.j.p.RequestController] waiting for queue
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379054 opname: get_attribute_config_2 invokeOperation on servant (stream based)
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.s.DeviceImpl] entry with ([testTimeoutAttribute])
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.h.DeviceBlackBox] get_attribute_config_2 [testTimeoutAttribute] requested from hzgc103k.desy.de
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.s.DeviceImpl] get config for [testTimeoutAttribute]
+TRACE 09-12-2019 12:49:22 [RequestProcessor-3 - o.t.s.s.DeviceImpl] exit
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.d.ServerRequest] ServerRequest: reply to get_attribute_config_2
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 0
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.e.StreamConnectionBase] wrote 288 bytes to 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.o.g.GIOPConnection] wrote GIOP message of size 288 to ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477)
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379054 opname: get_attribute_config_2 ends with request processing
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.e.StreamConnectionBase] read 244 bytes from 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.o.g.GIOPConnection] read GIOP message of size 256 from ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd
+7477)
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.p.POA] POA RootPOA rid: 379056 opname: read_attributes_5 _invoke: queuing request
+DEBUG 09-12-2019 12:49:22 [ServerMessageReceptor2 - o.j.p.RequestQueue] rid: 379056 opname: read_attributes_5 is queued (queue size: 1)
+DEBUG 09-12-2019 12:49:22 [RequestController-1 - o.j.p.RequestController] rid: 379056 opname: read_attributes_5 trying to get a RequestProcessor
+DEBUG 09-12-2019 12:49:22 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379056 opname: read_attributes_5 starts with request processing
+DEBUG 09-12-2019 12:49:22 [RequestController-1 - o.j.p.RequestController] waiting for queue
+DEBUG 09-12-2019 12:49:24 [ServerMessageReceptor0 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:24 [ServerMessageReceptor0 - o.j.o.e.StreamConnectionBase] read 64 bytes from 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:24 [ServerMessageReceptor0 - o.j.o.g.GIOPConnection] read GIOP message of size 76 from ServerGIOPConnection to 131.169.65.121:57262 from [131.169.65.121:37597] (d8a9c
+69)
+DEBUG 09-12-2019 12:49:24 [ServerMessageReceptor0 - o.j.p.POA] POA RootPOA rid: 582 opname: ping _invoke: queuing request
+DEBUG 09-12-2019 12:49:24 [ServerMessageReceptor0 - o.j.p.RequestQueue] rid: 582 opname: ping is queued (queue size: 1)
+DEBUG 09-12-2019 12:49:24 [RequestController-1 - o.j.p.RequestController] rid: 582 opname: ping trying to get a RequestProcessor
+DEBUG 09-12-2019 12:49:24 [RequestController-1 - o.j.p.RequestController] waiting for queue
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 582 opname: ping starts with request processing
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 582 opname: ping invokeOperation on servant (stream based)
+TRACE 09-12-2019 12:49:24 [RequestProcessor-5 - o.t.s.s.DeviceImpl] entry
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.t.s.h.DeviceBlackBox] Operation ping requested from hzgxenvtest.desy.de
+TRACE 09-12-2019 12:49:24 [RequestProcessor-5 - o.t.s.s.DeviceImpl] exit
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.o.d.ServerRequest] ServerRequest: reply to ping
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 0
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.o.e.StreamConnectionBase] wrote 24 bytes to 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.o.g.GIOPConnection] wrote GIOP message of size 24 to ServerGIOPConnection to 131.169.65.121:57262 from [131.169.65.121:37597] (d8a9c69)
+DEBUG 09-12-2019 12:49:24 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 582 opname: ping ends with request processing
+DEBUG 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.o.e.StreamConnectionBase] Transport to 131.169.65.104:49000: stream closed on read  < 0
+DEBUG 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.o.g.GIOPConnection] ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477): getMessage() -- COMM_FAILURE
+DEBUG 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.o.g.ServerGIOPConnection] ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477): streamClosed()
+DEBUG 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.o.g.GIOPConnection] ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477): close()
+INFO 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.o.i.ServerIIOPConnection] Closed server-side transport to 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:25 [ServerMessageReceptor2 - o.j.u.t.ThreadPool] [1/3] job queue empty
+DEBUG 09-12-2019 12:49:26 [ServerMessageReceptor0 - o.j.o.e.StreamConnectionBase] read 12 bytes from 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:26 [ServerMessageReceptor0 - o.j.o.e.StreamConnectionBase] read 64 bytes from 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:26 [ServerMessageReceptor0 - o.j.o.g.GIOPConnection] read GIOP message of size 76 from ServerGIOPConnection to 131.169.65.121:57262 from [131.169.65.121:37597] (d8a9c
+69)
+DEBUG 09-12-2019 12:49:26 [ServerMessageReceptor0 - o.j.p.POA] POA RootPOA rid: 584 opname: ping _invoke: queuing request
+DEBUG 09-12-2019 12:49:26 [ServerMessageReceptor0 - o.j.p.RequestQueue] rid: 584 opname: ping is queued (queue size: 1)
+DEBUG 09-12-2019 12:49:26 [RequestController-1 - o.j.p.RequestController] rid: 584 opname: ping trying to get a RequestProcessor
+DEBUG 09-12-2019 12:49:26 [RequestController-1 - o.j.p.RequestController] waiting for queue
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 584 opname: ping starts with request processing
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 584 opname: ping invokeOperation on servant (stream based)
+TRACE 09-12-2019 12:49:26 [RequestProcessor-5 - o.t.s.s.DeviceImpl] entry
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.t.s.h.DeviceBlackBox] Operation ping requested from hzgxenvtest.desy.de
+TRACE 09-12-2019 12:49:26 [RequestProcessor-5 - o.t.s.s.DeviceImpl] exit
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.o.d.ServerRequest] ServerRequest: reply to ping
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 0
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.o.e.StreamConnectionBase] wrote 24 bytes to 131.169.65.121:57262
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.o.g.GIOPConnection] wrote GIOP message of size 24 to ServerGIOPConnection to 131.169.65.121:57262 from [131.169.65.121:37597] (d8a9c69)
+DEBUG 09-12-2019 12:49:26 [RequestProcessor-5 - o.j.p.RequestProcessor] rid: 584 opname: ping ends with request processing
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.p.RequestProcessor] rid: 379056 opname: read_attributes_5 invokeOperation on servant (stream based)
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.s.DeviceImpl] entry with ([testTimeoutAttribute])
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.l.ClientLocking] check for client giop:tcp:131.169.65.104:49000 - Java client with Main class com.intellij.rt.execution.junit.JUnitStar
+ter - PID=7807
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.h.DeviceBlackBox] read_attributes_5 [testTimeoutAttribute] from CACHE_DEV requested from hzgc103k.desy.de (Java client with main class 
+com.intellij.rt.execution.junit.JUnitStarter - PID=7807)
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.s.AttributeGetterSetter] read from DEVICE testTimeoutAttribute 
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.a.AttributeImpl] entry with (testTimeoutAttribute)
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.a.ReflectAttributeBehavior] read attribute testTimeoutAttribute from method 'public java.lang.String hzg.wpn.tango.TestServer.getTestTi
+meoutAttribute()'
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - h.w.t.TestServer] com.intellij.rt.execution.junit.JUnitStarter - PID=7807       94759   1575895767528
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.a.AttributeImpl] entry with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] exit
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.a.AttributeImpl] exit with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.a.AttributeImpl] exit with (testTimeoutAttribute)
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.i.TangoIDLAttributeUtil] exit
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] entry
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.d.AroundInvokeImpl] exit
+TRACE 09-12-2019 12:49:27 [RequestProcessor-3 - o.t.s.s.DeviceImpl] exit
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.d.ServerRequest] ServerRequest: reply to read_attributes_5
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.g.GIOPConnection] GIOPConnection.sendMessage timeout (millis): 0
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.g.GIOPConnection] ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.121:37597] (3ccd7477): sendMessage() - opening transpor
+t org.jacorb.orb.iiop.ServerIIOPConnection@2e87dee4
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.e.StreamConnectionBase] wrote 188 bytes to 131.169.65.104:49000
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.l.SSLListenerUtil] Unknown exception type java.net.SocketException with exception java.net.SocketException: Socket closed
+DEBUG 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.e.ConnectionBase] to_COMM_FAILURE: Caught exception
+java.net.SocketException: Socket closed
+        at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+        at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+        at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+        at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+        at org.jacorb.orb.etf.StreamConnectionBase.flush(StreamConnectionBase.java:223)
+        at org.jacorb.orb.giop.GIOPConnection.sendMessage(GIOPConnection.java:1093)
+        at org.jacorb.orb.giop.GIOPConnection.sendMessage(GIOPConnection.java:1033)
+        at org.jacorb.orb.giop.GIOPConnection.sendReply(GIOPConnection.java:1027)
+        at org.jacorb.orb.dsi.ServerRequest.reply(ServerRequest.java:456)
+        at org.jacorb.orb.BasicAdapter.return_result(BasicAdapter.java:375)
+        at org.jacorb.poa.RequestController.returnResult(RequestController.java:398)
+        at org.jacorb.poa.RequestProcessor.run(RequestProcessor.java:885)
+ERROR 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.g.GIOPConnection] Failed to write GIOP message due to COMM_FAILURE, in ServerGIOPConnection to 131.169.65.104:49000 from [131.169.65.12
+1:37597] (3ccd7477)
+org.omg.CORBA.COMM_FAILURE: IOException: java.net.SocketException: Socket closed
+        at org.jacorb.orb.etf.ConnectionBase.to_COMM_FAILURE(ConnectionBase.java:152)
+        at org.jacorb.orb.iiop.IIOPConnection.handleCommFailure(IIOPConnection.java:79)
+        at org.jacorb.orb.etf.StreamConnectionBase.flush(StreamConnectionBase.java:227)
+        at org.jacorb.orb.giop.GIOPConnection.sendMessage(GIOPConnection.java:1093)
+        at org.jacorb.orb.giop.GIOPConnection.sendMessage(GIOPConnection.java:1033)
+        at org.jacorb.orb.giop.GIOPConnection.sendReply(GIOPConnection.java:1027)
+        at org.jacorb.orb.dsi.ServerRequest.reply(ServerRequest.java:456)
+        at org.jacorb.orb.BasicAdapter.return_result(BasicAdapter.java:375)
+        at org.jacorb.poa.RequestController.returnResult(RequestController.java:398)
+        at org.jacorb.poa.RequestProcessor.run(RequestProcessor.java:885)
+INFO 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.d.ServerRequest] Error replying to request!
+```
+
+
+
 ## PyTango News
 
 Geoff Mant reported on the migration from Boost to PyBind11. 
