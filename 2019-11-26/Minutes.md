@@ -379,7 +379,7 @@ org.omg.CORBA.COMM_FAILURE: IOException: java.net.SocketException: Socket closed
 INFO 09-12-2019 12:49:27 [RequestProcessor-3 - o.j.o.d.ServerRequest] Error replying to request!
 ```
 
-
+More info [JTango#19](https://github.com/tango-controls/JTango/issues/19#issuecomment-563994963)
 
 ## PyTango News
 
