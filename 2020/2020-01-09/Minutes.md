@@ -2,7 +2,9 @@
 
 Held on 2020/01/09 at 15:00 CET on https://esrf.vidyocloud.com/join/UVrb371ZVe
 
-Participants: Andrew Goetz, Reynald Bourtembourg (ESRF), ...
+Participants: Andrew Goetz, Reynald Bourtembourg (ESRF), Piotr Goryl, Michal Liszcz (S2Innovation),
+ Thomas Braun (Byte Physics), Geoffrey Mant (STFC), Gwenaëlle Abeillé (Soleil), Sergi Rubio (Alba),
+ Lorenzo Pivetta (Elettra) 
 
 # Minutes
 
