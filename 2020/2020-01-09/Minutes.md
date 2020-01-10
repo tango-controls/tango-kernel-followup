@@ -114,8 +114,9 @@ Please do not hesitate to share your opinion and experience on [cppTango#648](ht
 
 JTango 9.5.19 has been released. 
 Gwenaëlle said it was a release needed mainly for Soleil.
-This release contains some changes proposed by Igor to be able to compile in java 11. 
-This is still WIP and it seems it does not compile yet with Java 11.
+~This release contains some changes proposed by Igor to be able to compile in java 11. 
+This is still WIP and it seems it does not compile yet with Java 11.~
+The [fix Java 11+ compatibility](https://github.com/tango-controls/JTango/pull/96) PR is not yet merged in nor released
 
 ## PyTango News
 
