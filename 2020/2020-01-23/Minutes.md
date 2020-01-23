@@ -15,7 +15,7 @@ Participants:  Reynald Bourtembourg (ESRF), Sergi Rubio, Jairo Moldes (ALBA)
 It will include the latest version of the 9.3-backports branch and the latest POGO version too ([TangoSourceDistribution#70](https://github.com/tango-controls/TangoSourceDistribution/issues/70)).
 
 - Tango Database DS crash [TangoSourceDistribution#61](https://github.com/tango-controls/TangoSourceDistribution/issues/61): 
-The problem was due to a bug in libmariadb2. No problem when using libmariadb18 or libmariadb3.
+The problem was due to a bug in libmariadb2. No problem when using libmariadbclient18 or libmariadb3.
 
 **Action - byte physics**: Display a warning in the summary appearing at the end of _configure_ script execution if libmariadb2 is detected.
 
