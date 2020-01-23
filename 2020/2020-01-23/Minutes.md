@@ -2,7 +2,7 @@
 
 Held on 2020/01/23 at 15:00 CET on https://esrf.vidyocloud.com/join/UVrb371ZVe
 
-Participants:  Reynald Bourtembourg, Andrew Goetz (ESRF), Sergi Rubio, Jairo Moldes (ALBA)
+Participants:  Reynald Bourtembourg (ESRF), Sergi Rubio, Jairo Moldes (ALBA)
                Lorenzo Pivetta (Elettra), Piotr Goryl, Michal Liszcz (S2Innovation), Thomas Braun (byte physics)
 
 # Minutes
