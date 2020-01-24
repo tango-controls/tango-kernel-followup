@@ -80,6 +80,8 @@ Reynald mentioned that he could have a look at the [pybind11 branch in pytango g
 
 This topic was not addressed since Igor/Olga & Andy could not attend this meeting.
 
+**Igor**: registration for the meeting is now open! Please proceed to the event's Indico page for more information: [link](https://indico.esrf.fr/indico/event/41/)
+
 ### Conda packages
 
 The latest available tango conda package is providing cppTango 9.3.2.
