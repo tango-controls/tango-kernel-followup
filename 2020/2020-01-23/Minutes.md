@@ -49,6 +49,11 @@ Tango Source Distribution 9.3.4-rc4. To be followed on [cppTango#665](https://gi
 
 Michal said there are some PRs where he would need some input. Reynald suggested to add the question label to these PRs and to list these PRs here.
 
+[Michal] Following issues need comments from developers and/or users:
+* [cppTango#416](https://github.com/tango-controls/cppTango/issues/416): Remote vs local transparency difference when reading spectrum or image attributes
+* [cppTango#401](https://github.com/tango-controls/cppTango/issues/401): Cannot change alarm range for memorized attribute
+* [cppTango#538](https://github.com/tango-controls/cppTango/issues/538): Cannot poll local dynamic command
+
 Thomas is currently working on a automatic ABI compliance checker which would inform us if a PR is breaking the API or API compatibility.
 He is also preparing some PRs to do some additional C++ 11 cleanup.
 
