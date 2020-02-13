@@ -14,7 +14,9 @@ To be held on 2020/02/13 at 15:00 CET on https://esrf.vidyocloud.com/join/UVrb37
     - A new release should be made soon - there are some useful additions.
  6. High priority issues
  7. AOB
-    - Tango meetings in Russia
+    - Tango meetings in Russia:
+        **Igor** (just in case I won't be able to participate in the meeting): all preparations have been done. Registration is now open: https://indico.esrf.fr/indico/event/41/registration/
+        There are few registrants already and few pending. No abstracts have been submitted so far though a few are pending.
     - Conda packages
       - update cppTango from 9.3.2 to 9.3.3 (also used for PyTango CI tests).  Need to move/fork from https://gitlab.com/tiagocoutinho/tango-conda-recipes/ to https://gitlab.com/tango-controls.
       - Also move [pytango-conda-recipes](https://gitlab.com/tiagocoutinho/pytango-conda-recipes) and [pytango-windows-conda-recipes](https://gitlab.com/tiagocoutinho/pytango-windows-conda-recipes)
