@@ -17,6 +17,11 @@ In particular, what should we do if a user wants to change the max value attribu
 ### Recent PR merged
 Several PRs have been merged since the last meeting.
 Here is a list of improvements and bug fixes:
+- Fix race conditions between polling threads and user threads pushing events [#641](https://github.com/tango-controls/cppTango/pull/641) and [#665](https://github.com/tango-controls/cppTango/pull/665)
+- Backport: Avoid undefined interface warning msvc [#664](https://github.com/tango-controls/cppTango/pull/664)
+- Add switch to disable building MMX [#674](https://github.com/tango-controls/cppTango/pull/674) (9.3-backports)
+- Fix memory leak in Attribute::get_att_device_class() [#677](https://github.com/tango-controls/cppTango/pull/677) and [#678](https://github.com/tango-controls/cppTango/pull/678)
+- Travis: remove deprecated skip_cleanup [#682](https://github.com/tango-controls/cppTango/pull/682) and [#683](https://github.com/tango-controls/cppTango/pull/683)
 
 ## JTango News
 
