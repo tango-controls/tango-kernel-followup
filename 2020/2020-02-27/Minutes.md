@@ -50,10 +50,10 @@ Gwenaelle should get some time to work on that issue during the week from 9th to
 [pytango#333](https://github.com/tango-controls/pytango/issues/333) raised the question whether the Green Mode is still 
 experimental and whether we should continue to maintain 3 different modes (green mode, asyncio and concurrent.future).
 
-Sergi would like to push for keeping asyncio and concurrent.future. He thinks asyncio is the most used and concurrent.future is promising.
+Sergi would like to push for keeping asyncio and concurrent.future. He thinks asyncio is the most used in Python generally, and also that concurrent.future is promising.
 
-Andy said that green mode is in production at the ESRF and the new BLISS framework for the ESRF beamlines control is heavily 
-using the green mode.
+Andy said that gevent green mode is in production at the ESRF and the new BLISS framework for the ESRF beamlines control is heavily 
+using the gevent green mode.
 
 Geoff has been using gevents since a while without problem but also mentioned that he also did the exercise to replace 
 gevent code with asyncio code and it is working fine too.
@@ -62,7 +62,7 @@ The documentation should be updated to mention that asyncio should be the prefer
 
 We have to see whether we continue maintaining all these different modes because this is additional work for the 
 maintainers and there could be discrepancies between the different implementations as already noticed recently with the 
-is_allowed methods not being called in async mode [pytango#173](https://github.com/tango-controls/pytango/issues/173).
+is_allowed methods not being called in asyncio mode [pytango#173](https://github.com/tango-controls/pytango/issues/173).
 
 Geoff reported that there has been some progress on the migration to pybind11.
 The standard PyTango tests for the client part are now fully working and passing.
