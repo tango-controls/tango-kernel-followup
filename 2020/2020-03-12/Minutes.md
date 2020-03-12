@@ -108,7 +108,9 @@ It could probably be interesting to list as well the java versions used for the 
 
 **Action - volunteers**: Review TangoSourceDistribution PRs.
 
-**Action - ESRF?**: Move pytango conda recipes to a new repository in tango-controls Github organization.
+**Action - ESRF?**: Move pytango conda recipes to a new repository in tango-controls Github organization. 
+**Done**: https://github.com/tango-controls/pytango-conda-recipes and 
+https://github.com/tango-controls/pytango-windows-conda-recipes have been created.
 
 **Action - cppTango developers and volunteers**: Review the TangoTest PRs.
 
