@@ -102,7 +102,7 @@ The last award will be awarded randomly across all the submitted contributions t
 Anton and Reynald (Igor probably as well?) are already volunteers to be members of the jury. 
 More volunteers from the Tango kernel developers are welcome.
 
-**Igor**: The Jury: Igor, Olga, Reynald, Anton. We need to decide on which date the award will be perofrmed. On the eve the Jury will need to gather and pick one contribution.
+**Igor**: The Jury: Igor, Olga, Reynald, Anton. We need to decide on which date the award will be performed. On the eve the Jury will need to gather and pick one contribution.
 
 ## High priorities issues
 
