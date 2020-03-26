@@ -12,6 +12,6 @@ To be held on 2020/03/26 at 15:00 CET on https://esrf.zoom.us/j/936186697
  6. High priority issues
  7. Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2020/2020-03-12/Minutes.md#summary-of-remaining-actions)
  8. AOB
- 8.1 Conda packages
- 8.2 HDB++
+     - Conda packages
+     - HDB++
  
