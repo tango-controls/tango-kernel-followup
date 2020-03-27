@@ -72,7 +72,9 @@ She also wants to merge some pending Pull Requests.
 
 ## PyTango News
 
-Anton has updated the CI to test as well with Python 3.8 and some tests failed. To be investigated.
+Anton has updated the CI to test as well with Python 3.8, but the installation of the Conda packages even before building or testing is failing. The Tango Conda packages used don't include Python 3.8 suppport. To be investigated further.
+
+The 9.3.2 release of PyTango is still pending work by Alba on DeviceProxy unsubscription in destructor - issue [315](https://github.com/tango-controls/pytango/issues/315).  This being delayed by the issue below.
 
 Alba is witnessing some memory leaks when spectrum attributes (DevDouble RO) are involved, but not all the time. 
 They see this also with cppTango 9.3.4-rc2.
@@ -129,8 +131,8 @@ He suggested to organize an HDB++ teleconf meeting in April to get an update on 
 
 #### Batched subscriptions
 
-Andy suggested to investigate the possibility to batch events subscriptions to make it more efficient.
-Anton said that this is something they are already doing in MeerKAT Control System.
+Andy suggested to investigate the possibility to batch events subscriptions to make it more efficient, as suggested by Nick Reese from SKA.
+Anton said that this is something they found to be necessary in MeerKAT Control System (KATCP).
 
 **Action - ESRF**: Create a new issue for batching events subscriptions improvement
 
