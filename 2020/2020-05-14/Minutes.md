@@ -80,7 +80,7 @@ Here is a list of improvements and bug fixes:
 -  Automate abi api compliance check ([cppTango#662](https://github.com/tango-controls/cppTango/pull/662))
 - Ensure location transparency for image and spectrum attributes ([cppTango#697](https://github.com/tango-controls/cppTango/pull/697))
 
-## PR Merge goals from last meeting
+### PR Merge goals from last meeting
 Here is the list of PR which were with the "Ready For Merge" label at the time of the previous teleconf meeting:
 - [cppTango#702](https://github.com/tango-controls/cppTango/pull/702) (high priority)  **1 approval missing**
 - [cppTango#698](https://github.com/tango-controls/cppTango/pull/698) (high priority)  **Still waiting for review**
@@ -139,7 +139,7 @@ Tiago warned Reynald via e-mail that anaconda cloud has a limit of 3 GB for tang
 Current usage is ~458 MB (14% Full).  
 This 3GB limit might be an issue in the future if many packages or versions of these packages are created.
 
-### Tango meeting 2020
+## Tango meeting 2020
 
 The Tango meeting will not take place in June in Russia. It is postponed to 17th to 19th November 2020, still in Saint Petersburg.
 
