@@ -168,7 +168,11 @@ Since their OS is providing python 3.5, they would like pytango conda package fo
 ## Tango webinar 10th June 2020
 
 A Tango webinar meeting will take place on 10th June 2020.  
-The draft agenda is available here: https://indico.esrf.fr/indico/event/48
+
+The draft program is here: https://indico.esrf.fr/indico/event/48/ . It may evolve.
+
+If you are interested, please register in advance at this url:
+https://esrf.zoom.us/webinar/register/WN_Z659iGoaToi0WphG53Yl1A
 
 Reynald proposed to Michal & Thomas to co-present the cppTango presentation (if they are volunteer, not mandatory). 
 In any case, a draft presentation should be transmitted to Michal/Thomas/Reynald to get some feedback before the webinar.
