@@ -202,7 +202,7 @@ Thomas created a PR to fix this issue ([TangoDatabase#22](https://github.com/tan
 
 Tango kernel teleconf meetings take place on the 2nd and 4th Thursday of each month, at 15:00 CET or CEST (Paris time).
 
-The next Tango kernel teleconf meeting will take place **in 2 weeks** on Thursday 11th June 2020 at 15:00 CEST.
+The next Tango kernel teleconf meeting will take place in 2 weeks on Thursday 11th June 2020 at 15:00 CEST.
 
 ## Summary of remaining actions
 
