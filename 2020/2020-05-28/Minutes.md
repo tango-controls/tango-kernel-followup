@@ -103,7 +103,6 @@ Here is the list of PR which were with the "Ready For Merge" label at the time o
 - [cppTango#574](https://github.com/tango-controls/cppTango/pull/574)
 - [cppTango#564](https://github.com/tango-controls/cppTango/pull/564)
 - [cppTango#715](https://github.com/tango-controls/cppTango/pull/715)
-- [cppTango#702](https://github.com/tango-controls/cppTango/pull/702)
 
 **Action - Byte Physics**: Merge [cppTango#688](https://github.com/tango-controls/cppTango/pull/688) 
 (squash commits and commit message explaining why msvc stubs got removed).
