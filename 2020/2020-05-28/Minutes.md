@@ -116,16 +116,12 @@ We agreed to set as recurrent goal to review carefully and merge (if approved, o
 prioritizing the PR having the "High Priority" label and the external contributions.
 
 Here is the list of PR which were with the "Ready For Merge" label at the time of this teleconf meeting:
-- [cppTango#702](https://github.com/tango-controls/cppTango/pull/702) (high priority)
+
 - [cppTango#698](https://github.com/tango-controls/cppTango/pull/698) (high priority)
-- [cppTango#688](https://github.com/tango-controls/cppTango/pull/688) (external contribution)
 - [cppTango#685](https://github.com/tango-controls/cppTango/pull/685) (external contribution)
 - [cppTango#703](https://github.com/tango-controls/cppTango/pull/703) 
 - [cppTango#574](https://github.com/tango-controls/cppTango/pull/574)
 - [cppTango#564](https://github.com/tango-controls/cppTango/pull/564)
-- [cppTango#715](https://github.com/tango-controls/cppTango/pull/715)
-- [cppTango#702](https://github.com/tango-controls/cppTango/pull/702)
-- [cppTango#721](https://github.com/tango-controls/cppTango/pull/721)
 
 ## JTango News
 
