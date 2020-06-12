@@ -7,6 +7,12 @@ Wilmer Nilsson (MaxIV), Thomas Braun (byte physics), Geoffrey Mant (STFC)
 
 # Minutes
 
+## Introduction
+
+2 new guests are attending today:
+- Wilmer Nilsson is a working at MaxIV and has been involved in the gRPC prototype.
+- Damien Lacoste is currently mainly working on HDB++
+
 ## Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2020/2020-05-28/Minutes.md#summary-of-remaining-actions)
 
 **Action - All institutes**: Please vote (+1 comment in the issue, or e-mail) for the most critical issues you would
