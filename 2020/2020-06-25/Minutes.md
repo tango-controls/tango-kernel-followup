@@ -71,8 +71,8 @@ the bugs with 2 different implementations in some situations.
 This risk is understood and the advantages of using some standard features justify this policy change for the 
 tango-9-lts branch and should improve its maintainability and hopefully its reliability too.
 Thomas pointed out that he made some investigations and realized that VS2015 does not implement all the C++14 standard features.  
-He also said that code built from VS2017 is (or can be?) binary compatible with VS2015. So basically, we could drop 
-support for VS2015 if we wish so.
+He also said that code built from VS2017/2019 is binary compatible with VS2015. So basically, we could drop 
+support for VS2015 if we wish so, see [here](https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=vs-2019).
 It was decided to authorize the usage of C++14 standard features in tango-9-lts branch, only if these features are 
 supported by VS2015. If the need arises to use a C++14 feature not supported by VS2015, then we will reconsider the 
 continuity of VS2015 support in tango-9-lts branch.
