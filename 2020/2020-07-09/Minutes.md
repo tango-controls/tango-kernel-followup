@@ -170,7 +170,7 @@ Tango kernel teleconf meetings take place on the 2nd and 4th Thursday of each mo
 
 Reynald and Andy at least won't be available in 2 weeks (Thursday 23rd July).
 If Tango kernel developers wish to meet, they can if they want, using the same Zoom link as for the last Tango Kernel 
-Teleconf Meeting, else the next Tango kernel Teleconf meeting will take place on Thursday 13rd August 2020 at 15:00 CEST.
+Teleconf Meeting, else the next Tango kernel Teleconf meeting will take place on Thursday 13th August 2020 at 15:00 CEST.
 
 ## Summary of remaining actions
 
