@@ -222,7 +222,7 @@ This was not mentioned during the teleconf meeting but a new TangoTickets issue 
 
 Tango kernel teleconf meetings take place on the 2nd and 4th Thursday of each month, at 15:00 CET or CEST (Paris time).
 
-The next Tango kernel Teleconf meeting will take place on Thursday 28th August 2020 at 15:00 CEST.
+The next Tango kernel Teleconf meeting will take place on Thursday 27th August 2020 at 15:00 CEST.
 
 ## Summary of remaining actions
 
