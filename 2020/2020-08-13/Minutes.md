@@ -169,8 +169,9 @@ He is working on a solution.
 
 Anton reminded that it should be safe to use a PyTango x.y.z version with any cppTango x.y.v version.
 
-Anton mentioned an issue they are observing with some random changes in the timestamps. More investigations will be 
-needed before to create an issue.
+Anton mentioned an issue they are observing with some random changes in the timestamps for received events.
+The environment is a mixture of cppTango 9.2.5 and PyTango 9.3.2 (not recommmended), with the device server in "nodb" mode.
+More investigations will be needed before to create an issue.
 
 ## Tango Source Distribution
 
