@@ -116,13 +116,13 @@ Anton suggested to try with Alpine Linux based docker images which seems to use 
 Michal proposes to consider stopping using Sonar and use some open source tools (clang-tidy) to do the same. 
 People would be then able to run the static analysis locally. We could also then have more jobs doing different things 
 (1 dedicated for code coverage, 1 for regression tests, 1 for quality/static analysis). 
-We could also use clang-tidy to automatic code formatting. We could setup some github actions and provide reports as with artifacts.  
+We could also use clang-tidy to do automatic code formatting. We could setup some github actions and provide reports as with artifacts.  
 Reynald reminded as well that Michal proposed to use thread sanitizer tool on some tests to track data races and ensure 
 some already data races bugs don't come back.
-Michal mention the address sanitizer tool. It would be useful to have a job running this tool as well and a job with valgrind.
+Michal mentioned the address sanitizer tool. It would be useful to have a job running this tool as well and a job with valgrind.
 Thomas mentioned ubisan (Undefined behaviour sanitizer) and said it would be useful to gat a job with this tool too.
 
-**Action - Michal**: Create an issue to keep track of the new jobs we would like to get using quality check tools (clang-tidy, address-sanitizer, thread sanitizer,ubisan, valgring)
+**Action - Michal**: Create an issue to keep track of the new jobs we would like to get using quality check tools (clang-tidy, address-sanitizer, thread sanitizer,ubisan, valgrind)
 
 - log4tango: Fix the check for int64_t ([cppTango#765](https://github.com/tango-controls/cppTango/pullwith/765)).
 Michal proposed to remove that type and replace it with chrono::steady_clock. Michal will check whether this type is used only internally or not.
@@ -166,7 +166,7 @@ He rewrote 3 tests over 4.
 
 Anton suggested to meet Mateusz in a separate meeting.
 
-Anton reported an issue is discovered with forwarded attributes when using a file database. 
+Anton reported an issue he discovered with forwarded attributes when using a file database. 
 There is something wrong in the parsing of the attribute name in cpptango.
 
 **Action - Anton**: Create an issue in cpptango for the problem with forwarded attributes when using a file database.
@@ -293,7 +293,7 @@ Corba Transient Timeout exception are received.
 
 **Action - Sergi**: Check whether the latest Pogo version is fixing an issue regarding dynamic attributes in PyTango High Level API.
 
-**Action - Michal**: Create an issue to keep track of the new jobs we would like to get using quality check tools (clang-tidy, address-sanitizer, thread sanitizer,ubisan, valgring)
+**Action - Michal**: Create an issue to keep track of the new jobs we would like to get using quality check tools (clang-tidy, address-sanitizer, thread sanitizer,ubisan, valgrind)
 
 **Action - Anton**: Create an issue in cpptango for the problem with forwarded attributes when using a file database.
 
