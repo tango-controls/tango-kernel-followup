@@ -217,7 +217,7 @@ and Sergi proposed to mention that in the advertising.
 
 The first Tango Kernel training webinar will take place on Monday 9th November  at 9:00 am CET. It will last about 90 minutes.
 Please refer to the following link to get the corresponding time in the different areas of the world (Thanks, Marco for the link): 
-https://www.timeanddate.com/worldclock/meetingdetails.html?year=2020&month=10&day=26&hour=8&min=0&sec=0&p1=302&p2=37&p3=196&p4=31&p5=195&p6=240&p7=56&p8=1038
+https://www.timeanddate.com/worldclock/meetingdetails.html?year=2020&month=11&day=3&hour=8&min=0&sec=0&p1=302&p2=37&p3=196&p4=31&p5=195&p6=240&p7=56&p8=1038
 
 We'll try to organize 1 webinar per month.
 
