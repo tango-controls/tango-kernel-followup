@@ -120,7 +120,7 @@ We could also use clang-tidy to do automatic code formatting. We could setup som
 Reynald reminded as well that Michal proposed to use thread sanitizer tool on some tests to track data races and ensure 
 some already data races bugs don't come back.
 Michal mentioned the address sanitizer tool. It would be useful to have a job running this tool as well and a job with valgrind.
-Thomas mentioned ubisan (Undefined behaviour sanitizer) and said it would be useful to gat a job with this tool too.
+Thomas mentioned ubisan (Undefined behaviour sanitizer) and said it would be useful to have a job with this tool too.
 
 **Action - Michal**: Create an issue to keep track of the new jobs we would like to get using quality check tools (clang-tidy, address-sanitizer, thread sanitizer,ubisan, valgrind)
 
@@ -158,11 +158,11 @@ No news.
 
 ## PyTango News
 
-Mateusz solved an issue with the DeviceTestContext (file handler was not closed correctly).
-
-Mateusz rewrote some tests using pytest-xprocess library instaed of the DeviceTestContext. 
-He rewrote 3 tests over 4.  
-2 of them are ok now. There is an issue with the 3rd one where the event subscriptions ids are incrementing after restarting the tests.
+Mateusz working on getting the tests to run under Windows:
+- solved an issue with the DeviceTestContext (file handler was not closed correctly).
+- tests using pytest-xprocess library, as the pytest multiprocess `--boxed` or `--forked` options are not supported on Windows. 
+- 2 of them are ok now. There is an issue with the 3rd one where the event subscriptions ids keep incrementing for each test, even though
+  each test should be starting a new instance of the device server.
 
 Anton suggested to meet Mateusz in a separate meeting.
 
@@ -171,7 +171,7 @@ There is something wrong in the parsing of the attribute name in cpptango.
 
 **Action - Anton**: Create an issue in cpptango for the problem with forwarded attributes when using a file database.
 
-Anton reported that someone commented about a memory leak issue which is already fixed in pybind11 branch. 
+Anton reported that someone commented about a memory leak issue which is already fixed in pybind11 branch. https://github.com/tango-controls/pytango/issues/298
 Some effort should be done to try to fix this memory leak as well in the current non-pybind11 development branch because we don't know the release date for the pybind11 release.
 
 Anton is interested in improving the CI in order to be able to more easily deploy newer versions of pytango onto pypi. 
