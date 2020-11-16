@@ -59,6 +59,9 @@ for the moment: https://youtu.be/iIzP4jaQrzw
 
 Please have a look and warn Reynald if you see anything inappropriate in this video (something which should be blurred or cut out).
 
+Reynald created a tango-controls youtube channel. 
+Please contact him if you would like to share administration rights with him on this youtube channel.
+
 For the next Tango Kernel Webinars, it was agreed during the meeting to do a cppTango webinar on the event system. 
 It was suggested that the best would be to get Emmanuel Taurel presenting it, since he is the original author and 
 could share all the secrets of the current event system.
