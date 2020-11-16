@@ -271,7 +271,7 @@ _ Use OmniThreads in MultiDeviceTestContext ([pytango#387](https://github.com/ta
 
 Tango kernel teleconf meetings take place on the 2nd and 4th Thursday of each month, at 15:00 CET or CEST (Paris time).
 
-The next Tango kernel Teleconf meeting will take place **in 3 weeks** on Thursday 26th November 2020 at 15:00 **CET**.
+The next Tango kernel Teleconf meeting will take place in 2 weeks on Thursday 26th November 2020 at 15:00 **CET**.
 
 ## Summary of remaining actions
 
