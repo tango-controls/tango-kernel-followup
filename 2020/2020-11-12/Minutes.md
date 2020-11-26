@@ -199,7 +199,7 @@ Andy also reported an issue with the retina screen big resolution which is by de
 There is a trick to work-around this problem playing with GDK_SCALE environment variable. 
 It would be good to document this work-around in TDS README too.
 
-**Action - byte physics?**: Document GDB_SCALE trick on Tango Source Distribution README
+**Action - byte physics?**: Document GDK_SCALE trick on Tango Source Distribution README
 **Action - byte physics?**: Add some information on Tango Source Distribution README about systemd integration
 
 **Action - Andy?**: Update Documentation to give a recipe on how to install Tango with the Tango Source Distribution on Ubuntu
@@ -308,7 +308,7 @@ Someone else has to publish it or Thomas should be granted this permission.**
 **Action - S2Innovation (Piotr)**: Contact Emmanuel Taurel to see whether he remembers how to get/set the list of allowed 
 commands when a Device is locked.
 
-**Action - byte physics?**: Document GDB_SCALE trick on Tango Source Distribution README
+**Action - byte physics?**: Document GDK_SCALE trick on Tango Source Distribution README
 
 **Action - byte physics?**: Add some information on Tango Source Distribution README about systemd integration
 
