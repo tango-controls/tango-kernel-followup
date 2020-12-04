@@ -37,7 +37,7 @@ b. keep tango controls on github and move CI to gitlab
 - it is feasible setting un CI on gitlab keeping the source on github, but requires a premium account and does not integrate well with PR, see https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/. No detailed info per job.
 
 c. move tango-controls to gitlab
-- moving from GH to GL seems straightforward, see https://gitlab.com/tango-controls/test_gh_import/cppTango
+- moving from GH to GL seems straightforward, see https://gitlab.com/tango-controls/test_gh_import/cppTango and https://gitlab.com/-/snippets/2046070
 - appveyor supports gitlab, see https://gitlab.com/bourtemb/cppTango/-/pipelines as a test output, so it seems feasible using appveyor as now, before using windows runners
 - GL grant free of charge licences are either Gold (Gitlab hosted) or Ultimate (self hosted). Gold oprion limited to 50000 CI minutes/month.
 - possibly, just runners can be self-hosted, if CI minutes shortage
