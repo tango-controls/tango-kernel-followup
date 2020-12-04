@@ -124,7 +124,7 @@ after the meeting because something should be done before 31st December on Travi
 ## Tango Kernel Webinars
 
 - Webinar on Astor/Starter/Pogo, presented by Pascal Verdier will take place on Wednesday 16th December @ 10:00 CET
-- Webinar on cppTango events, presenter by Emmanuel Taurel will take place on Wednesday 20th January @ 10:00 CET
+- Webinar on cppTango events, presented by Emmanuel Taurel will take place on Wednesday 20th January @ 10:00 CET
 
 After the events on cppTango, the following cppTango webinars could present the singleton classes and the Tango Monitor 
 feature (Serialization).
