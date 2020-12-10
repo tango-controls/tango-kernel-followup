@@ -43,6 +43,7 @@ a. dismiss travis and move to github actions
 - keep tango-controls on github
 - github actions have been tested for some projects in tango, but still early stage
 - not much knowledge of GH actions within the Tango community
+- at this time of writing github actions come for free
 - possibly, runners can be self hosted
 
 b. keep tango controls on github and move CI to gitlab
