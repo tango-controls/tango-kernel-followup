@@ -6,8 +6,18 @@ Held on 2020/12/03 at 14:00 CET on Zoom.
 
 ## Support for device level dynamic attributes (#814)
 
-**Participants**:
+**Participants**: Reynald Bourtembourg, Andrew Goetz, Emmanuel Taurel (ESRF), Henrik Enquist, Vincent Hardion (MaxIV), 
+Michal Liszcz (S2Innovation), Lorenzo Pivetta (ELETTRA), Sergi Rubio (ALBA) 
 
+Henrik Enquist presented the details of the issue he would like to solve ([cpptango#814](https://github.com/tango-controls/cpptango/issues/814)) 
+and the results of his first investigations.
+The participants agreed on the fact that the current implementation is not consistent between dynamic commands and 
+dynamic attributes and on the fact that consistency is desirable.  
+They also agreed on the fact that the consistency is also desirable between a single device exported in a Device Server instance 
+and an equivalent device with the same properties exported in a device server exporting several devices.  
+With the current implementation, some dynamic attributes can be created in the first case but sometimes not in the latter.
+
+Henrik Enquist will propose a PR to remove the current limitations on the dynamic attributes.
 
 ## Travis-ci.org shutdown & migration to travis-ci.com (#812)
 
