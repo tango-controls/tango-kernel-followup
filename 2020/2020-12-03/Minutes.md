@@ -28,7 +28,7 @@ See https://github.com/tango-controls/cppTango/issues/812 for context. In short 
 The main considerations re GH vs GL are
 
 1. **Freedom** GL is Free Software while GH is not. This should be important for a FOSS-based collaboration such as Tango.
-2. **Avoid vendor lock-in:** currently the company behing GL has much better reputation than the one owning GH with respect to Free Software. Moreover, even in the case we need to move away from GL, and forking GL seems barely feasible (even if possible because of "1!), self-hosting looks likely a viable solution.
+2. **Avoid vendor lock-in:** currently the company behind GL has much better reputation than the one owning GH with respect to Free Software. Moreover, even in the case we need to move away from GL, and forking GL seems barely feasible (even if possible because of "1!), self-hosting looks likely a viable solution.
 3. **Homogenizing enviroments:** many institutes in the Tango collaboration already run their own GL self-hosted instances. Moving to GL may facilitate community learning and cooperation.
 4. **CI improvement:** Continuous Integration in GL is very good and well-tested.
 5. **Packaging and dockerization:** gitlab-ci can be used for collaborative packaging. ALBA and SKA already do.
@@ -41,7 +41,7 @@ a. dismiss travis and move to github actions
 - keep tango-controls on github
 - github actions have been tested for some projects in tango, but still early stage
 - not much knowledge of GH actions within the Tango community
-- possibly, runners can be self hostes
+- possibly, runners can be self hosted
 
 b. keep tango controls on github and move CI to gitlab
 - it is feasible setting un CI on gitlab keeping the source on github, but requires a premium account and does not integrate well with PR, see https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/. No detailed info per job.
@@ -49,7 +49,7 @@ b. keep tango controls on github and move CI to gitlab
 c. move tango-controls to gitlab
 - moving from GH to GL seems straightforward, see https://gitlab.com/tango-controls/test_gh_import/cppTango and https://gitlab.com/-/snippets/2046070
 - appveyor supports gitlab, see https://gitlab.com/bourtemb/cppTango/-/pipelines as a test output, so it seems feasible using appveyor as now, before using windows runners
-- GL grant free of charge licences are either Gold (Gitlab hosted) or Ultimate (self hosted). Gold oprion limited to 50000 CI minutes/month.
+- GL grant free of charge licences are either Gold (Gitlab hosted) or Ultimate (self hosted). Gold option limited to 50000 CI minutes/month.
 - possibly, just runners can be self-hosted, if CI minutes shortage
 - GH repos can stay in place during transition time as a synchronized mirror of GL
 - GL uses openID authentication, thus users who already have a GH account don't even need to create a new one on GL (but may want to)
