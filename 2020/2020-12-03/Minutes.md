@@ -36,6 +36,7 @@ The main considerations re GH vs GL are
 7. **Unlimited private projects:** GL now allows hosting unlimited private projects for free. Not that relevant for a Free Software community like Tango, but still it can be interesting for some starting projects, or for some proprietary projects based on tango.
 
 An additional consideration on the big picture
+
 9. If a FLOSS hosting software is a crucial point, then we can also not use the gitlab Gold/Ultimate variants as these are closed-source software, see https://about.gitlab.com/install/ce-or-ee/. Experience/feedback is gitlab is "cool", e.g. has concrete advantages, starting with premium.
 10. GH is the de-facto reference for any community based project
 
