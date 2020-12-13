@@ -69,12 +69,12 @@ Emmanuel Taurel could attend too. The meeting link will be shared on tango-contr
 **Meeting done last week. Thanks Emmanuel Taurel for attending.  
 Minutes are online: https://github.com/tango-controls/tango-kernel-followup/blob/master/2020/2020-12-03/Minutes.md**
 
-## Tango GRPC protocol
+## Tango GRPC prototype
 
-Wilmer presented the work he has been doing on trying to replace CORBA in cppTango with GRPC.
+Wilmer presented the work he has been doing on trying to replace CORBA in cppTango with GRPC in a prototype.
 
 **Action - MaxIV (Wilmer)**: Make the code of the GRPC prototype publicly available and communicate the link to the Tango 
-Kernel developers so they could have a deeper look at the code and give advices and help. Thomas also suggested 
+Kernel developers so they could have a deeper look at the code and give more advices and help. Thomas also suggested 
 to document the project to help testers/reviewers/contributors to compile and better understand the current code.
 
 ## Tango RFCs
@@ -83,7 +83,8 @@ Please refer to https://github.com/tango-controls/rfc/wiki/Meeting-2020-12-10
 
 ## Travis-ci.org shutdown ([cppTango#812](https://github.com/tango-controls/cppTango/issues/812))
 
-There will be a Tango Steering Committee meeting on Tuesday. The migration from Travis will be one of the discussed topics.
+There will be a Tango Steering Committee meeting on Tuesday 15th December 2020. 
+The migration from Travis will be one of the discussed topics.
 
 Lorenzo summarized the situation there: 
 https://github.com/tango-controls/tango-kernel-followup/blob/master/2020/2020-12-03/Minutes.md#travis-ciorg-shutdown--migration-to-travis-cicom-812
@@ -93,14 +94,15 @@ Thomas warned that some of the features from Gitlab available with a gold accoun
 Carlos said that we should avoid using these features, which is not always easy because they are not clearly identified as 
 proprietary features when you use them.
 
-Andy applied for a free of charge Gold licence on gitlab.com for Tango during the meeting. There should be an answer between 5 to 10 days from now.  
+Andy applied for a free of charge Gold licence on gitlab.com for tango-controls during the meeting. There should be an 
+answer between 5 to 10 days from now.  
 Reynald mentioned that Travis files should be migrated before the end of next week (before the school holidays) if we 
 don't want any interruption in our CI process.
 
 An option could be to move to github actions (still free for the moment) to buy us some time before an eventual migration 
 to Gitlab (Gitlab.com or self-hosted) in next months.
 
-Reynald did also a small test this week, migrating cppTango to gitea, which is free SW github-like clone 
+Reynald did also a small test this week, migrating cppTango to gitea, which is a free SW github-like clone 
 which can be self-hosted too. The result of the migration can be seen here: https://try.gitea.io/bourtemb/cppTango   
 The repository might disappear at any time because it is on a test instance.
 
@@ -136,14 +138,14 @@ To help focussing on a smaller number of PRs, the _High Priority_ Label has been
 - Webinar on cppTango events, presented by Emmanuel Taurel will take place on Wednesday 20th January @ 10:00 CET
 
 Sergi talked to Tiago about the PyTango webinar (probably in February 2021).
-If there are some specific topic you would like Tiago to talk about during the next PyTango Kernel Webinar, please contact 
+If there are some specific topics you would like Tiago to talk about during the next PyTango Kernel Webinar, please contact 
 Tiago or Sergi. 
 
 ## AOB
 
 ### Next teleconf meeting
 
-Tango kernel teleconf meetings take place on the 2nd and 4th Thursday of each month, at 15:00 CET or CEST (Paris time).
+Tango Kernel Teleconf Meetings take place on the 2nd and 4th Thursday of each month, at 15:00 CET or CEST (Paris time).
 
 Exceptionally, the next Tango kernel Teleconf meeting will **not** take place in 2 weeks. 
 So the next Tango Kernel Teleconf Meeting will take place on Thursday 14th January 2020 at 15:00 **CET**. 
