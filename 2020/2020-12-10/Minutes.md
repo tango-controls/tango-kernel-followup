@@ -106,9 +106,9 @@ Reynald did also a small test this week, migrating cppTango to gitea, which is a
 which can be self-hosted too. The result of the migration can be seen here: https://try.gitea.io/bourtemb/cppTango   
 The repository might disappear at any time because it is on a test instance.
 
-So we'll wait for GL feedback on the project status request.  
-But it may take some time, and likely not come in time for the next EC meeting. 
-The short term action, which implies the less work, seemed to be setting up GH actions by the end of week #51 for the 
+Gitlab granted Gold Status for tango-controls on gitlab.com on Friday 11th December (the day after this kernel teleconf meeting).
+So we'll wait for the steering committee decision to know whether we move to gitlab.com or stay on github.
+What is important is to migrate the Travis jobs to Github actions or Gitlab runners by the end of week #51 for the 
 projects in trouble with Travis... 
 
 **Action - ESRF (Andy)**: Ask Webu how much it would cost if they would maintain a Gitlab instance on tango-controls.org domain?
