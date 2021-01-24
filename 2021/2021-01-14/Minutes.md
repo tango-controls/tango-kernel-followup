@@ -67,11 +67,11 @@ All the migration details can be found and commented on https://github.com/tango
 
 The first repositories who have announced a migration date are the following:
 
-- itango: migration planned on Thursday 20th January
-- cppTango : migration planned on Thursday 20th January
-- pytango: migration planned on Thursday 20th January
+- itango: migration planned on Thursday 21th January
+- cppTango : migration planned on Thursday 21th January
+- pytango: migration planned on Thursday 28th January
 
-Mateusz will help with pytango CI migration to gitlab-ci. Roberto Lopez(?) from Alba has already started some work on that topic.
+Mateusz will help with pytango CI migration to gitlab-ci. Alberto Lopez from Alba has already started some work on that topic.
 
 Sergi will ensure Mateusz, Anton and the new recruit are in touch to avoid duplication of the work.
 
