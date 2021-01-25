@@ -26,8 +26,8 @@ Please rebase and solve conflicts if needed to ease the review process.
 
 **Action - Max IV**: Vincent Hardion will ask his colleagues to create Pull Requests to integrate spec rpms in the
 TangoSourceDistribution repository. 
-**Benjamin proposes to have a separate repository for the spec rpms. He did some tests with Copper.
-Copper keeps only the last ones. Thomas Braun proposes to store the binaries with Gitlab 
+**Benjamin proposes to have a separate repository for the spec rpms. He did some tests with [Copr](https://copr.fedorainfracloud.org).
+Copr keeps only the last [ones](https://copr.fedorainfracloud.org/coprs/g/tango-controls/tango/builds/). Thomas Braun proposes to store the binaries with Gitlab 
 ([Generic packages on Gitlab](https://gitlab.com/gitlab-org/release-cli/-/tree/master/docs/examples/release-assets-as-generic-package/)).
 He also sent this link on Kernel slack channel related to showing an issue "Investigate how to add support for RPM to 
 the Package Registry" : https://gitlab.com/gitlab-org/gitlab/-/issues/296785 . 
