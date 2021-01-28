@@ -1,4 +1,4 @@
-# Tango Kernel Follow-up Meeting - 2021/01/14
+# Tango Kernel Follow-up Meeting - 2021/01/28
 
 Held on 2021/01/14 at 15:00 CET on Zoom.
 
@@ -8,7 +8,7 @@ Thomas Juerges (LOFAR), Sergi Rubio (ALBA), Lorenzo Pivetta (ELETTRA), Stephane 
 
 # Minutes
 
-## Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2020/2020-12-10/Minutes.md#summary-of-remaining-actions)
+## Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2021/2021-01-14/Minutes.md#summary-of-remaining-actions)
 
 **Action - All institutes**: Please vote (thumb up reaction in the description of the issue, or e-mail) for the most critical issues you would
 like to get solved first.
