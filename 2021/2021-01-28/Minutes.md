@@ -54,7 +54,6 @@ Please rebase and solve conflicts if needed to ease the review process.
 
 **Action - Gitlab Migration**: See actions and proposals below
 
-
 ---
 
 ## Gitlab migration ([TangoTickets#47](https://github.com/tango-controls/TangoTickets/issues/47))
@@ -99,9 +98,34 @@ Michal created [cpptango#821](https://github.com/tango-controls/cppTango/issues/
 Decission to be taken:
 
  - erase completely (only lorenzo agrees)
- - create new branch with just a README and leave it as default branch on github
- - move branches code to github archiving, so will not be updated anymore and will not become a fork
+ - create new branch with just a README and leave it as default branch on github (everyone agrees)
+ - move branches code to github archiving, so will not be updated anymore and will not become a fork (everyone agrees)
  
+ **Action**: The empty branch will be removed on gitlab; and the name of the new default branch will be discussed after the migration.
+ 
+ - Thomas suggested to use the new branch as **main**, as it seems the current trend
+ - The old master branch will become Tango V10 (or something similar)
+ 
+ Other repos will not be forced to follow the same conventions.
+ 
+ Repositories ready for migration:
+ 
+  - cppTango
+  - itango
+  - pytango
+   * pytango having issues with python 3.5 integration (non blocking, PR to be accepted when ready **Action - Alberto and Anton**)
+   
+**Action Results: Reynald** : Done a test migration, sent a reminder with the people not yet appearing as available on gitlab
+
+**Action: All?** : to be reviewed how to work on Teams/subgroups and who should have owner permissions on the repos (so not everybody)
+ - If it is not possible to do it by groups then it will have to be done per-repository (may be a huge work)
+ - **Carlos**: on the migration issue, maintainer should appoint the user owners after the migration (automatic migration seems to set everyone as owner)
+ 
+**Action: cppTango migration**: to be done after the meeting
+
+**Action: itango migration**: to be done tomorrow
+
+**Action - TANGO RFCs Migration: Piotr**: Collecting the lists of members to be notified, preparing pdf's from the main branch to be made available.
 
 ***
 
@@ -109,8 +133,11 @@ Decission to be taken:
 
 The main bocking issue for pyTango is the one related to the DeviceProxy destruction.
 
+**Issue: Reynaild** Some old JTango java clients creating new connections regularly to devices and not freeing them, 
+causing too many open files errors on device servers. Fixed updating JTango.
+
 **Action - Sergi**: Organize a meeting with Anton, Zibi and Sergi on the DeviceProxy destruction topic.
-***Pending***: Sergi will organize the meeting during the next week
+ - ***Pending***: Sergi will organize the meeting during the next week
 
 In cppTango, the Gitlab migration is top priority.
 
@@ -147,8 +174,9 @@ ESRF has installed pytango 9.3.3 during this winter shutdown.
 Alba is already using pyTango 9.3.3 as well on some systems.  
 ESRF is still validating pytango on Power9 architecture. 
 
-Sergi mentioned that they are experiencing a memory leak issue when using pytango 9.3.3 and older when reading states of
+**Action - Sergi**: mentioned that they are experiencing a memory leak issue when using pytango 9.3.3 and older when reading states of
 devices in a thread.
+ -  Reynald mentioned that similar issues were found due to a HW issue with an ethernet interface, detected by faulty ssh's
 
 ### Next teleconf meeting
 
@@ -157,6 +185,8 @@ Tango Kernel Teleconf Meetings take place on the 2nd and 4th Thursday of each mo
 So the next Tango Kernel Teleconf Meeting will take place on Thursday 28th January 2021 at 15:00 **CET**. 
 
 ## Summary of remaining actions
+
+**Action -  Sergi**: PR 743 (on names on logs) to be reviewed
 
 **Action - All institutes**: Please vote (thumb up reaction in the description of the issue, or e-mail) for the most critical issues you would
 like to get solved first.
