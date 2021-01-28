@@ -10,6 +10,19 @@ Thomas Juerges (LOFAR), Sergi Rubio (ALBA), Lorenzo Pivetta (ELETTRA), Stephane 
 
 ## Status of [Actions defined in the previous meetings](https://github.com/tango-controls/tango-kernel-followup/blob/master/2021/2021-01-14/Minutes.md#summary-of-remaining-actions)
 
+**Action - Max IV**: Vincent Hardion will ask his colleagues to create Pull Requests to integrate spec rpms in the
+TangoSourceDistribution repository. Move spec rpms repository to gitlab.com/tango-controls
+**Benjamin proposes to have a separate repository for the spec rpms. He did some tests with [Copr](https://copr.fedorainfracloud.org).
+Copr keeps only the last [ones](https://copr.fedorainfracloud.org/coprs/g/tango-controls/tango/builds/). Thomas Braun proposes to store the binaries with Gitlab 
+([Generic packages on Gitlab](https://gitlab.com/gitlab-org/release-cli/-/tree/master/docs/examples/release-assets-as-generic-package/)).
+*** He also sent this link on Kernel slack channel related to showing an issue "Investigate how to add support for RPM to 
+the Package Registry" : https://gitlab.com/gitlab-org/gitlab/-/issues/296785 . 
+The spec rpm repo should be moved to gitlab.com/tango-controls**
+
+-  2021/01/28 update: rpm packages have built, links to be provided
+
+- Piotr manifests Soleil's interest in rpm packages, although nobody from Soleil is present, so they will be contacted for testing
+
 **Action - All institutes**: Please vote (thumb up reaction in the description of the issue, or e-mail) for the most critical issues you would
 like to get solved first.
 
@@ -24,36 +37,25 @@ If the action is not solved, please put it in the "Summary of remaining actions"
 **Action - PR developers**: Please ensure the old opened PRs are still compatible with the latest version of tango-9-lts.
 Please rebase and solve conflicts if needed to ease the review process.
 
-**Action - Max IV**: Vincent Hardion will ask his colleagues to create Pull Requests to integrate spec rpms in the
-TangoSourceDistribution repository. 
-**Benjamin proposes to have a separate repository for the spec rpms. He did some tests with [Copr](https://copr.fedorainfracloud.org).
-Copr keeps only the last [ones](https://copr.fedorainfracloud.org/coprs/g/tango-controls/tango/builds/). Thomas Braun proposes to store the binaries with Gitlab 
-([Generic packages on Gitlab](https://gitlab.com/gitlab-org/release-cli/-/tree/master/docs/examples/release-assets-as-generic-package/)).
-He also sent this link on Kernel slack channel related to showing an issue "Investigate how to add support for RPM to 
-the Package Registry" : https://gitlab.com/gitlab-org/gitlab/-/issues/296785 . 
-The spec rpm repo should be moved to gitlab.com/tango-controls**
-
-**Action - All**: Test [9.3.4](https://github.com/tango-controls/TangoSourceDistribution/releases/tag/9.3.4) release.
-**This action will be removed since 9.3.4 is out since a while now.**
-
-**Action - ESRF (Andy)**: Create an issue (in TangoTickets) to transmit a more meaningful error message when
-Corba Transient Timeout exception are received. **Issue https://github.com/tango-controls/cppTango/issues/822 has been 
-created but still requires some work to get a good description.**
+**Action - ESRF (Andy)**: Update the description of issue https://github.com/tango-controls/cppTango/issues/822
 
 **Action - Andy?**: Update Documentation to give a recipe on how to install Tango with the Tango Source Distribution on Ubuntu
-
-**Action - All developers relying on travis-ci.org**: Please comment [cpptango#812](https://github.com/tango-controls/cppTango/issues/812)
-because something should be done before 31st December on Travis-CI.org migration topic.
-
-**Action - MaxIV (Wilmer)**: Make the code of the GRPC prototype publicly available and communicate the link to the Tango
-Kernel developers so they could have a deeper look at the code and give advices and help. Thomas also suggested
-to document the project to help testers/reviewers/contributors to compile and better understand the current code.
-**The repository can be found at https://gitlab.com/MaxIV/lib-maxiv-cppmascot .**
 
 **Action - ESRF (Andy)**: Ask Webu how much it would cost if they would maintain a Gitlab instance on tango-controls.org domain?
 
 **Action - All**: Be prepared to discuss the priorities of the open Pull Requests and Issues at the coming Tango Kernel Teleconf meeting.
 **Reynald should send a reminder several days before the meeting**
+
+**Action: Reynald**: Inform his colleagues about the migration for repositories like jive, atkpanel, astor, Starter, etc...
+
+**Action - Sergi**: Organize a meeting with Anton, Zibi and Sergi on the DeviceProxy destruction topic.
+
+**Action - Andy**: Contact Geoff to see when he could present a Kernel Webinar on pybind11.
+
+**Action - Gitlab Migration**: See actions and proposals below
+
+
+---
 
 ## Gitlab migration ([TangoTickets#47](https://github.com/tango-controls/TangoTickets/issues/47))
 
@@ -87,11 +89,28 @@ Michal created [cpptango#821](https://github.com/tango-controls/cppTango/issues/
 
 **Action: Reynald**: Inform his colleagues about the migration for repositories like jive, atkpanel, astor, Starter, etc...
 
+**Action: Sardana**: Sardana team has decided to not migrate yet
+
+**Proposal: Thomas**: A message will be added to announce that projects has been moved and the current code moved to archiving in github, it is proposed to add a PR to remove the CI/CD code to make people aware that no longer builds will be provided from github.
+*** Lorenzo proposed to fully remove the repository, but it may cause issues as many projects are still linked to this project and many links would be broken for people not aware of the move.
+
+**Proposal: Carlos**: proposal to rename or remove the default branch but to keep the rest of the branches for all the people working in parallel developments or tags.
+
+Decission to be taken:
+
+ - erase completely (only lorenzo agrees)
+ - create new branch with just a README and leave it as default branch on github
+ - move branches code to github archiving, so will not be updated anymore and will not become a fork
+ 
+
+***
+
 ## High priorities issues
 
 The main bocking issue for pyTango is the one related to the DeviceProxy destruction.
 
 **Action - Sergi**: Organize a meeting with Anton, Zibi and Sergi on the DeviceProxy destruction topic.
+***Pending***: Sergi will organize the meeting during the next week
 
 In cppTango, the Gitlab migration is top priority.
 
