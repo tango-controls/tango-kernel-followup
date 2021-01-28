@@ -186,7 +186,9 @@ So the next Tango Kernel Teleconf Meeting will take place on Thursday 28th Janua
 
 ## Summary of remaining actions
 
-**Action -  Sergi**: PR 743 (on names on logs) to be reviewed
+**Action -  Sergi**: PR 742 (on names on logs) to be reviewed
+
+**FROM THIS POINT ... REST OF ACTIONS TO BE UPDATED**
 
 **Action - All institutes**: Please vote (thumb up reaction in the description of the issue, or e-mail) for the most critical issues you would
 like to get solved first.
