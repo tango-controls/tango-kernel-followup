@@ -1,6 +1,6 @@
 # Tango Kernel Follow-up Meeting - 2021/01/28
 
-Held on 2021/01/14 at 15:00 CET on Zoom.
+Held on 2021/01/28 at 15:00 CET on Zoom.
 
 **Participants**:  Benjamin Bertrand, Vincent Hardion (MaxIV), Reynald Bourtembourg (ESRF), 
 Thomas Braun (byte physics), Mateusz Celary, Piotr Goryl, Michal Liszcz (S2Innovation),  Anton Joubert (SARAO), 
