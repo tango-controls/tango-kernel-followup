@@ -2,9 +2,9 @@
 
 Held on 2021/01/14 at 15:00 CET on Zoom.
 
-**Participants**:  Benjamin Bertrand (MaxIV), Reynald Bourtembourg, Andrew Goetz, Damien Lacoste (ESRF), 
-Thomas Braun (byte physics), Mateusz Celary, Michal Liszcz (S2Innovation),  Anton Joubert (SARAO), 
-Thomas Juerges (LOFAR), Sergi Rubio (ALBA), Lorenzo Pivetta (ELETTRA), Stephane Poirier (SOLEIL), Sonja Vrcic (SKAO)
+**Participants**:  Benjamin Bertrand, Vincent Hardion (MaxIV), Reynald Bourtembourg (ESRF), 
+Thomas Braun (byte physics), Mateusz Celary, Piotr Goryl, Michal Liszcz (S2Innovation),  Anton Joubert (SARAO), 
+Thomas Juerges (LOFAR), Alberto Lopez, Carlos Pascual, Sergi Rubio (ALBA), Sonja Vrcic (SKAO)
 
 # Minutes
 
