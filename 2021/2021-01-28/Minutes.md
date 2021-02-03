@@ -111,6 +111,10 @@ Decission to be taken:
 
 ***
 
+## Tango RFCs
+
+Piotr said that he will work on a CI job to create a pdf containing all the RFCs.
+
 ## High priorities issues
 
 The main bocking issue for pyTango is the one related to the DeviceProxy destruction.
@@ -130,9 +134,24 @@ kernel developer, you can help in reviewing these PRs.
 
 ## Tango Kernel Webinars
 
+Carlos said that he was thinking about presenting Kernel Webinars about Taurus and Sardana later this year.
+
+Anton said he seems to be the best person to share the knowledge on pytango.
+
+About cppTango, Anton is interested in learning more about the Singletons and the ApiUtil class.
+
 **Action - Andy**: Contact Geoff to see when he could present a Kernel Webinar on pybind11.
 
+**Action - Reynald**: share the knowledge got after discussing with Emmanuel Taurel about how the last Tango Windows distribution was created.
+I should share that on https://github.com/tango-controls/TangoTickets/issues/37
+
 ## AOB
+
+question from Benjamin Bertrand asking whether we should continue to support python 2.
+
+Carlos said that Taurus will drop python 2 support soon (Next month I think to remember).
+
+Anton replied that he still needs python 2 in his institute for pytango. For itango, he said it should not be an issue to drop python 2 support.
 
 ### pytango 9.3.3
 
