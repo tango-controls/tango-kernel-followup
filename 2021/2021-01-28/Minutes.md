@@ -167,10 +167,6 @@ So the next Tango Kernel Teleconf Meeting will take place on Thursday 11th Febru
 
 ## Summary of remaining actions
 
-**Action -  Sergi**: PR 742 (on names on logs) to be reviewed
-
-**FROM THIS POINT ... REST OF ACTIONS TO BE UPDATED**
-
 **Action - All institutes**: Please vote (thumb up reaction in the description of the issue, or e-mail) for the most critical issues you would
 like to get solved first.
 
@@ -185,7 +181,9 @@ If the action is not solved, please put it in the "Summary of remaining actions"
 **Action - PR developers**: Please ensure the old opened PRs are still compatible with the latest version of tango-9-lts.
 Please rebase and solve conflicts if needed to ease the review process.
 
-**Action - Max IV**: Move spec rpms repository to gitlab.com/tango-controls
+**Action -  Sergi**: tangocpp PR 742 (on names on logs) to be reviewed
+
+**Action - Max IV**: provide links to spec rpms repository
 
 **Action - ESRF (Andy)**: Update the description of issue https://github.com/tango-controls/cppTango/issues/822
 
@@ -202,3 +200,19 @@ Please rebase and solve conflicts if needed to ease the review process.
 
 **Action - Andy**: Contact Geoff to see when he could present a Kernel Webinar on pybind11.
 
+**Action: Reynald**: Inform his colleagues about the migration for repositories like jive, atkpanel, astor, Starter, etc...
+
+ **Action - Cpascual**: create new branch with just a README and leave it as default branch on github (everyone agrees)
+
+**Action - Cpascual**: move branches code to github archiving, so will not be updated anymore and will not become a fork (everyone agrees)
+
+**Action: cppTango migration**: to be done after the meeting
+
+**Action: itango migration**: to be done tomorrow
+
+**Action - TANGO RFCs Migration: Piotr**: Collecting the lists of members to be notified, preparing pdf's from the main branch to be made available.
+
+**Action - Reynald**: share the knowledge got after discussing with Emmanuel Taurel about how the last Tango Windows distribution was created.
+I should share that on https://github.com/tango-controls/TangoTickets/issues/37
+
+**Action - Sergi**: debug a memory leak issue when using pytango 9.3.3 and older when reading states of devices in a thread.
