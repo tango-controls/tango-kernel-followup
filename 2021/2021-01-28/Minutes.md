@@ -157,7 +157,8 @@ Anton replied that he still needs python 2 in his institute for pytango. For ita
 
 **Action - Sergi**: mentioned that they are experiencing a memory leak issue when using pytango 9.3.3 and older when reading states of
 devices in a thread.
- -  Reynald mentioned that similar issues were found due to a HW issue with an ethernet interface, detected by faulty ssh's
+ -  Reynald mentioned that an issue similar to [cppTango#330](https://gitlab.com/tango-controls/cppTango/-/issues/330) 
+ was observed but on a PC where there are some issues with the network interface (ssh sessions sometimes disconnected, problem when scp on big files,...)
 
 ### Next teleconf meeting
 
