@@ -200,8 +200,6 @@ Please rebase and solve conflicts if needed to ease the review process.
 
 **Action - Andy**: Contact Geoff to see when he could present a Kernel Webinar on pybind11.
 
-**Action: Reynald**: Inform his colleagues about the migration for repositories like jive, atkpanel, astor, Starter, etc...
-
  **Action - Cpascual**: create new branch with just a README and leave it as default branch on github (everyone agrees)
 
 **Action - Cpascual**: move branches code to github archiving, so will not be updated anymore and will not become a fork (everyone agrees)
