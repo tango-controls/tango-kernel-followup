@@ -3,16 +3,17 @@
 Held on 2021/02/11 at 15:00 CET on Zoom.
 
 **Participants**:
-- Benjamin Bertrand (MaxIV)
-- Reynald Bourtembourg (ESRF)
-- Thomas Braun (byte physics)
 - Andrew Goetz (ESRF)
-- Piotr Goryl (S2Innovation)
-- Vincent Hardion (Max IV)
-- Nicolas Leclercq (ESRF)
-- Michal Liszcz (S2Innovation)
-- Sergi Rubio (ALBA)
+- Benjamin Bertrand (MaxIV)
+- Gwenaelle Abeillé (SOLEIL)
 - Lorenzo Pivetta (ELETTRA)
+- Michal Liszcz (S2Innovation)
+- Nicolas Leclercq (ESRF)
+- Piotr Goryl (S2Innovation)
+- Reynald Bourtembourg (ESRF)
+- Sergi Rubio (ALBA)
+- Thomas Braun (byte physics)
+- Vincent Hardion (Max IV)
 
 (and some people Thomas has forgotten, as he was not aware of recording that list)
 
