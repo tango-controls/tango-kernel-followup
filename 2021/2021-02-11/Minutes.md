@@ -155,7 +155,7 @@ https://github.com/tango-controls/TangoTickets/issues/37
 Create ticket in cppTango for RelWithDebInfo, see CMAKE_BUILD_TYPE, https://cmake.org/cmake/help/latest/variable/CMAKE_BUILD_TYPE.html
 
 **Action - Reynald**:
-Look at old cppTango PRs targeting master, and comment/close/create issue
+Look at old cppTango PRs targeting `tango-v10`, and comment/close/create issue
 
 **Action - Sergi**:
 tangocpp PR 742 (on names on logs) to be reviewed
